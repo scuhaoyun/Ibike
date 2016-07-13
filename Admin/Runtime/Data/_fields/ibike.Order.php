@@ -1,0 +1,2 @@
+<?php
+return array ( 0 => 'order_num', 1 => 'username', 2 => 'customer_name', 3 => 'address', 4 => 'mobile', 5 => 'email', 6 => 'postal_code', 7 => 'trade_time', 8 => 'pay_way', 9 => 'order_state', 10 => 'note', '_autoinc' => false, '_pk' => 'order_num', ); ?>

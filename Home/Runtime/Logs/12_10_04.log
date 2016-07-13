@@ -1,0 +1,429 @@
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.030652s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.043652s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007277s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000901s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000822s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.022573s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.022683s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.075233s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.075336s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.018638s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.009234s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.005340s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.012516s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.046009s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.012290s ]
+[ 2012-10-04T16:17:32+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.012403s ]
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.017536s ]
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.017705s ]
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001250s ]
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001343s ]
+[ 2012-10-04T16:17:41+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000793s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000926s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005653s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001158s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000789s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000807s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000892s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010740s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010842s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000615s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000647s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000657s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002611s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000680s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000756s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001176s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001328s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000895s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000980s ]
+[ 2012-10-04T16:18:53+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001176s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001334s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007815s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001496s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000890s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001290s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001381s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.012578s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012683s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000922s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000859s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000619s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000816s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003466s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001066s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001152s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.003410s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.003560s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000919s ]
+[ 2012-10-04T16:20:43+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000798s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000930s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005782s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001139s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001203s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000795s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000879s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010811s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010912s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000598s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000636s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000437s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000665s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002554s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000699s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000775s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001380s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001534s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001106s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001236s ]
+[ 2012-10-04T16:21:31+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000915s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005699s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000947s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000967s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000794s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000875s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010728s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010826s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.001009s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000790s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000478s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000672s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003183s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000688s ]
+[ 2012-10-04T16:21:32+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000757s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001086s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001217s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000825s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000903s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000794s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000948s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005899s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001106s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001184s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000825s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000911s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010566s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010683s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000594s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000651s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000665s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002595s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000689s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000764s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001476s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001680s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001065s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001167s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000806s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000936s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005259s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000902s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001463s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000809s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000894s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010726s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010828s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000596s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000632s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000609s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000748s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002833s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000707s ]
+[ 2012-10-04T16:21:33+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000783s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001201s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001339s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000893s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000980s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000966s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001105s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006101s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001124s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001131s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000980s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001069s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010384s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010486s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000609s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000631s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000515s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001413s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003448s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000736s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000813s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001223s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001369s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001099s ]
+[ 2012-10-04T16:21:34+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000786s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000914s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.079136s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.002059s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001514s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.002541s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.002753s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.016182s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016339s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000670s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000737s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000505s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000749s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002917s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.001153s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.001263s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001057s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001201s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000824s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000902s ]
+[ 2012-10-04T16:21:55+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001151s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001287s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005497s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000682s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000693s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001340s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001436s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011783s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011897s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000737s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.001144s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000621s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000832s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003579s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000844s ]
+[ 2012-10-04T16:25:19+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000922s ]
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001200s ]
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001331s ]
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000806s ]
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000883s ]
+[ 2012-10-04T16:25:20+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001288s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001437s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005850s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000956s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001314s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.001243s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.001330s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011551s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011651s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000766s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000808s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000593s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000811s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003213s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000879s ]
+[ 2012-10-04T16:32:09+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000958s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000804s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000936s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005621s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000642s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000660s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000872s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000959s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010763s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010869s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000659s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000636s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000479s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000666s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002669s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000679s ]
+[ 2012-10-04T16:32:12+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000754s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000980s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001137s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005769s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000652s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000604s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000784s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000881s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011138s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011245s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000622s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000752s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000571s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000676s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002862s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000767s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000871s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001028s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001198s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005938s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001114s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001167s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000800s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000884s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010915s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011019s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000742s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000716s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000557s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000691s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003018s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000722s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000799s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000784s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000934s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006065s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.000759s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.000764s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000794s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000876s ]
+[ 2012-10-04T16:32:13+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.011059s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011159s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000616s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000662s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000665s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002618s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000695s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000768s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001226s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001430s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005726s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant “Page” - assumed '“Page”' IndexAction.class.php 第 7 行.
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | SQL: SELECT COUNT(*) AS tp_count FROM `think_user` LIMIT 1   [ RunTime:0.001126s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | SQL: SELECT * FROM `think_user` LIMIT 0,5   [ RunTime:0.001136s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000799s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000881s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.010601s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010707s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.000677s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.000630s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000441s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000646s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002630s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000665s ]
+[ 2012-10-04T16:32:14+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000751s ]
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --START--
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001736s ]
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001923s ]
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --START--
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001090s ]
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001185s ]
+[ 2012-10-04T16:32:15+08:00 ] /Ibike/index.php/Public/verify | NOTIC: [8] Use of undefined constant png - assumed 'png' PublicAction.class.php 第 15 行.

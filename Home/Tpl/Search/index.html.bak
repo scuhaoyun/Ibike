@@ -1,0 +1,89 @@
+<include file="Index:home_head"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+#middle_main {
+	background-color:#fff;
+	width:100%;
+	height:auto;
+
+}
+a {
+	text-decoration:none;
+	color:#000000;
+}
+#home_middle {
+	width:1008px;
+	height:auto;
+	margin:0 auto;
+}
+.goods_img_div {
+	width:330px;
+	height:300px;
+	background-color:#EBEBEB;
+	border:#636363 3px solid;
+	display:inline;
+	float:left;
+}
+.goods_img_div:hover{
+border:#FF0000 3px solid;}
+.goods_name {
+	width:90%;
+	height:40px;
+	margin:0 auto;
+}
+.goods_sale_price,.day_price {
+	width:90%;
+	height:20px;
+	margin:0 auto;
+}
+.goods_market_price{
+	width:90%;
+	height:15px;
+	margin-top:-8px;
+	text-align:right;
+}
+#page_list {
+	width:1008px;
+	height:50px;
+	margin-top:30px;
+	display:inline;
+	float:left;
+}
+#page_input{ height:20px;line-height:20px; background-color:#FFFFE0;border:1px solid #CCCCCC;}
+#page_go{ background:#009933; border:1px solid #006600;}
+</style>
+<body>
+<div id="middle_main">
+  <div id="home_middle">
+    <volist name="list" id="data1">
+      <div class="goods_img_div">
+      <a href="__APP__/Index/test?goods_num=<{$data1['goods_num']}>"> <img src="__UPLOAD__/s_<{$data1['goods_pic'][0]}>" /></a>
+        <div class="goods_name"> <a href="__APP__/Index/test?goods_num=<{$data1['goods_num']}>"> <{$data1['goods_name']}></a> </div>
+        <if condition="$data1['goods_service']=='出卖'">
+        <div class="goods_sale_price"> 售价：<font color="red" size="+2">$<{$data1['sale_price']}></font> </div>
+        <div class="goods_market_price"> 市场价：<font color="red" style="text-decoration:line-through;">$<{$data1['market_price']}></font> </div>
+        <else />
+         <div class="day_price"> 售价：<font color="red" size="+2">$<{$data1['day_price']}></font><font color="red">/天</font> </div>
+        <!--<div class="hour_price" style="width:48%; height:15px; display:inline; float:left;"><font color="red">$<{$data1['hour_price']}>/小时</font> </div>-->
+        <div class="hour_month_price" style="width:60%; height:15px; display:inline; float:right; text-align:right; margin-right:10px;"><font color="red">$<{$data1['hour_price']}>/小时 $<{$data1['month_price']}>/月</font> </div>
+        </if>
+      </div>
+    </volist>
+    <div id="page_list">
+      <div align="center" id="page"><{$page}></div>
+    </div>
+  </div>
+</div>
+</div>
+<include file="Index:home_footer"/>
+</body>
+</html>

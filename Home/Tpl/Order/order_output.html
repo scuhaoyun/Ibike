@@ -1,0 +1,114 @@
+<include file="Index:home_header"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>订单信息</title>
+<script type="text/javascript" src="__JS__/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="__JS__/ajax.js"></script>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>-->
+<link rel="stylesheet" type="text/css" href="__CSS__/cloud-zoom.css" />
+<script type="text/javascript" src="__JS__/cloud-zoom.1.0.2.js"></script>
+<!--<script type="text/javascript" src="http://www.jsfoot.com/skin/js/jquery.js"></script>-->
+<script type="text/javascript" src="__JS__/payfor.js"></script>
+</head>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+#middle_main {
+	/*background-color:#F7F6F8;*/
+	width:1366px;
+	height:auto;
+}
+a {
+	text-decoration:none;
+	color:#000000;
+}
+#home_middle {
+	width:980px;
+	height: auto;
+	margin:0 auto;
+	text-align:left;
+}
+#order_info_table{ width:100%;}
+#order_info_table tr{ height:30px; vertical-align:middle;}
+#goods_info_table{width:98%; height:auto; text-align:center; vertical-align:middle; margin:20px auto; font-size:14px; text-decoration:none; border-left:1px solid #DDDDDD;border-top:1px solid #DDDDDD;}
+#goods_tr td{border-bottom:1px solid #DDDDDD;}
+.td_left{ text-align:right;}
+.goods_list_tr td{ border-right:1px solid #DDDDDD; border-bottom:1px solid #DDDDDD;} 
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+  
+  });
+</script>
+<body>
+<div id="middle_main">
+  <div id="home_middle">
+    <div id="shopfigure" style="width:100%; height:120px; overflow:hidden; position:relative;">
+    <img src="__IMAGE__/zxzf.png" style="margin-left:30px;"/><img src="__IMAGE__/shop_going.png" style="position:absolute; top:-290px; right:50px;"/></div>
+    <div id="order_info_main" style="width:100%; height:auto; border:#ABCDEC 2px solid;">
+       <div style="background:#ABCDEC; width:100%; height:25px;"></div>
+       <div style="background:url(__IMAGE__/order_success.png) no-repeat;height:24px; vertical-align:middle; margin-top:20px; margin-bottom:20px; margin-left:20px; padding-left:25px;">
+       <h3>订单已提交，请尽快付款！</h3></div>
+        <table id="order_info_table">
+        <tr><td class="td_left">您的订单号：</td><td style="width:86%;"><font color="#DC130F"><{$person['order_num']}></font></td></tr>
+        <tr><td class="td_left">当前订单状态：</td><td style="width:86%;"><font color="#DC130F"><{$person['order_state']}></font></td></tr>
+        <tr><td class="td_left">收货人信息：</td><td style="width:86%;"><{$person['customer_name']}>，<{$person['mobile']}>，<{$person['email']}>，<{$person['address']}>，  
+              <{$person['postal_code']}></td></tr>
+        <tr><td class="td_left">买家留言：</td><td style="width:86%;"><{$person['note']}></td></tr>
+        <tr><td class="td_left">配送方式：</td><td style="width:86%;">快递，国内快递公司</td></tr>
+        <tr><td class="td_left">支付方式：</td><td style="width:86%;"><{$person['pay_way']}></td></tr>
+        <tr><td class="td_left">应付总金额：</td><td style="width:86%;"><font color="#DC130F"><{$person['all_price']}>元</font></td></tr>
+        <tr>
+            <td class="td_left">订单提交时间：</td>
+            <td style="width:86%;"><{$person['trade_time']}></td>
+          </tr>
+        </table>
+        
+       <table cellspacing="0" id="goods_info_table" cellpadding="0" >
+     <tr id="goods_tr" style="background-color:#E8F2FF; height:35px; ">
+     <td>宝贝</td><td>名称</td><td width="6%">服务</td><td width="8%" >状态</td><td width="11%" >单价（元）</td><td width="8%">数量/时间</td><td width="6%" >送积分</td><td width="8%">优惠</td><td width="11%">商品总价（元）</td>
+     <td style="border-right:1px solid #DDDDDD; width:6%;">运费</td></tr>
+     
+     <foreach name="goods" item="info">
+      <tr style="height:80px;" class="goods_list_tr">
+      <td><img height="70px" width="105px" src="__UPLOAD__/s_<{$info['goods_pic'][0]}>" /></td>
+      <td><a href="__APP__/Index/test?goods_num=<{$goods['goods_num']}>"><{$info['goods_name']}></a></td>
+      <td><{$info['goods_service']}></td>
+      <td><{$info['state']}></td>
+      <td><if condition="$info['time_unit']==''"><{$info['sale_price']}>
+           <else /> <p><{$info['day_price']}>/天</p> <p><{$info['hour_price']}>/小时</p><p><{$info['month_price']}>/月</p>
+          </if></td>
+      <td><{$info['count']}> <{$info['time_unit']}></td>
+      <td><{$info['score']}></td>
+      <td><{$info['discount']}></td>
+      <td><{$info['unit_price']}></td>
+      <td><{$info['trans_fee']}></td>
+     
+      </tr>
+     
+      </foreach>
+     
+      </table>
+      <div id="sfk" style=" width:98%; margin:20px auto; text-align:right; vertical-align:middle;">实付款：<font color="#DC130F"><{$person['all_price']}>元</font></div>
+      <div  style=" width:98%; margin:20px auto; text-align:right; vertical-align:middle;"><a href="#"><img onClick="go_to_pay()" src="__IMAGE__/gotopay.png"/></a></div>
+     </div>
+      <FORM name="formbill" id="formbill" action="__PHP__/Send.php" method="post"> 
+      <input style="display:none;" name="v_oid" type="text" maxlength="64" value="<{$person['order_num']}>">
+      <input style="display:none;" name="v_amount" type=text value="<{$person['all_price']}>"  onkeyup="if(isNaN(value))execCommand('undo')">
+      </FORM>
+      
+  </div>
+ </div>
+<script> 
+function go_to_pay(){
+   $("#formbill").submit();
+}
+</script>
+
+</body>
+</html>
+<include file="Index:home_footer"/>

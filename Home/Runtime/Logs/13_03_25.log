@@ -1,0 +1,961 @@
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.017686s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.037252s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.050858s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.050974s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | NOTIC: [8] Undefined variable: list 7e4848229090366086cc7eeb3bfc0798.php 第 11 行.
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | NOTIC: [8] Undefined variable: page 7e4848229090366086cc7eeb3bfc0798.php 第 14 行.
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.145952s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.146027s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.026638s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.005054s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.010424s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001610s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.043988s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.005246s ]
+[ 2013-03-25T12:51:08+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.005331s ]
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | INFO: Run CheckRoute Behavior [ RunTime:0.020949s ]
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.021087s ]
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.032971s ]
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.033062s ]
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.005904s ]
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:33+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001315s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005498s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000803s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000748s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000804s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000739s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000734s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000744s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000735s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000815s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000703s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005532s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000779s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000725s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000721s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000795s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.001018s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run LocationTemplate Behavior [ RunTime:0.059172s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.059281s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run ParseTemplate Behavior [ RunTime:0.043716s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.043825s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run ContentReplace Behavior [ RunTime:0.012839s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run TokenBuild Behavior [ RunTime:0.004856s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.011020s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002234s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.031292s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.004187s ]
+[ 2013-03-25T22:33:34+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.004272s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.001566s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001713s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001643s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001728s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006476s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001553s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.013524s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000819s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000827s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000780s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000783s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000988s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000800s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000766s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000766s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000776s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005346s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000734s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000751s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000737s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000736s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000748s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.002721s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002826s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.017258s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017365s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.001555s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.001653s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001357s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.001605s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006493s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001462s ]
+[ 2013-03-25T22:33:38+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001549s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run CheckRoute Behavior [ RunTime:0.001564s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001702s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001663s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001751s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.005681s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001427s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005290s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000624s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000636s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000554s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000904s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000633s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000646s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000944s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000593s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000589s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005265s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000652s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000674s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000617s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000636s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000529s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run LocationTemplate Behavior [ RunTime:0.002782s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002910s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run ParseTemplate Behavior [ RunTime:0.017801s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017928s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run ContentReplace Behavior [ RunTime:0.001456s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run TokenBuild Behavior [ RunTime:0.001488s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001803s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run ShowRuntime Behavior [ RunTime:0.001587s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006618s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001428s ]
+[ 2013-03-25T22:33:40+08:00 ] /Ibike/index.php/Search/index?r=&p=5 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001513s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run CheckRoute Behavior [ RunTime:0.001729s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001870s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001663s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001749s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006272s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001755s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.006118s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.001009s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.001028s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.001262s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.001066s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.002588s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.002459s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.001383s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.001401s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.001060s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005659s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.001062s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.002079s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.001052s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.001040s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.001971s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run LocationTemplate Behavior [ RunTime:0.002762s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002860s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run ParseTemplate Behavior [ RunTime:0.017458s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017568s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run ContentReplace Behavior [ RunTime:0.001440s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run TokenBuild Behavior [ RunTime:0.001664s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001476s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run ShowRuntime Behavior [ RunTime:0.001822s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006702s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001472s ]
+[ 2013-03-25T22:33:45+08:00 ] /Ibike/index.php/Search/index?r=&p=4 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001567s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run CheckRoute Behavior [ RunTime:0.001530s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001667s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001625s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001709s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.005959s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001675s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005538s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000664s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000822s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000862s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000503s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000743s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000891s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.001142s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000888s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000858s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005645s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000839s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.001478s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000837s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000902s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000850s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run LocationTemplate Behavior [ RunTime:0.002870s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002972s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run ParseTemplate Behavior [ RunTime:0.017645s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017752s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run ContentReplace Behavior [ RunTime:0.001562s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run TokenBuild Behavior [ RunTime:0.001572s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001398s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run ShowRuntime Behavior [ RunTime:0.002063s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006877s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001455s ]
+[ 2013-03-25T22:33:47+08:00 ] /Ibike/index.php/Search/index?r=&p=3 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001541s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.001586s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001727s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001687s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001775s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.005908s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.002987s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.006194s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000914s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000850s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000516s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000786s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000858s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000619s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000593s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000704s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000601s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.009370s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000627s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.002067s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.002161s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000892s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000791s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.002809s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002909s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.017722s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017830s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.001459s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.001531s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001319s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.001486s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006083s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001412s ]
+[ 2013-03-25T22:33:49+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001497s ]
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run CheckRoute Behavior [ RunTime:0.001503s ]
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001639s ]
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001647s ]
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001731s ]
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006634s ]
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:33:50+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001941s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005467s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000795s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000434s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000526s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000514s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000412s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000751s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000629s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000612s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000420s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.006047s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000586s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000856s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000980s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000698s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.001154s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.003280s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.003384s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.018239s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018347s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ContentReplace Behavior [ RunTime:0.001492s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run TokenBuild Behavior [ RunTime:0.001481s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001351s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001939s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006552s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001525s ]
+[ 2013-03-25T22:33:51+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001656s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run CheckRoute Behavior [ RunTime:0.001774s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001923s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001833s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001928s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006771s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001511s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005568s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000827s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000815s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.001033s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000910s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.001596s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.002758s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.002569s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000885s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.002128s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005963s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000932s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.001210s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000822s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000859s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000721s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run LocationTemplate Behavior [ RunTime:0.003019s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.003121s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run ParseTemplate Behavior [ RunTime:0.017655s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017774s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run ContentReplace Behavior [ RunTime:0.001222s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run TokenBuild Behavior [ RunTime:0.001423s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001580s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001531s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006027s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001513s ]
+[ 2013-03-25T22:34:28+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001599s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run CheckRoute Behavior [ RunTime:0.001513s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001649s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001580s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001673s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006668s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001920s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005750s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.001410s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.001088s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.001684s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.001215s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.001534s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.001132s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.001279s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000930s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.001170s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.006229s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.003579s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.001343s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000979s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.001110s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000982s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002434s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002531s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run ParseTemplate Behavior [ RunTime:0.022596s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.022700s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run ContentReplace Behavior [ RunTime:0.001063s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run TokenBuild Behavior [ RunTime:0.001462s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001286s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001578s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005682s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001465s ]
+[ 2013-03-25T22:34:37+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001549s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run CheckRoute Behavior [ RunTime:0.002364s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002511s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001747s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001837s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.009789s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.002209s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005518s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000543s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000623s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000927s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.001118s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000676s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000570s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000810s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000897s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000771s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.006885s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.001426s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.002108s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.001894s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.001334s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.001236s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002627s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002729s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run ParseTemplate Behavior [ RunTime:0.018531s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.018636s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run ContentReplace Behavior [ RunTime:0.001387s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run TokenBuild Behavior [ RunTime:0.001511s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001371s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002700s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007264s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001873s ]
+[ 2013-03-25T22:35:11+08:00 ] /Ibike/index.php/Search/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001962s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.001912s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002052s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001616s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001703s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006150s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001868s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005564s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.001256s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.001473s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000891s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000907s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000901s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.001042s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000942s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.001011s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000956s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005961s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000954s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000987s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000979s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.002493s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000955s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.002750s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002860s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.016641s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016751s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.001313s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.001490s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001322s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.002033s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006431s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001179s ]
+[ 2013-03-25T22:35:23+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001350s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run CheckRoute Behavior [ RunTime:0.001903s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002048s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001710s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001802s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006295s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001878s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.006901s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.001204s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.001384s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.001185s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.001205s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.001383s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.001482s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.001468s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.001409s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.001359s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.006419s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.001222s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000702s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.001357s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.002338s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.001431s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.002399s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002502s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.016775s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016880s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ContentReplace Behavior [ RunTime:0.000929s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run TokenBuild Behavior [ RunTime:0.001455s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001298s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001479s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005472s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001333s ]
+[ 2013-03-25T22:35:31+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001422s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.001947s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002085s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001702s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001791s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.005928s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001434s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005613s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000670s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000699s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000730s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000687s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000690s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000756s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000835s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000676s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000674s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005212s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000683s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000665s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000651s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000647s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000658s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.002158s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002253s ]
+[ 2013-03-25T22:35:39+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.016589s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016690s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.001178s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.001647s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001597s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.003137s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007830s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.002819s ]
+[ 2013-03-25T22:35:40+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.002902s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run CheckRoute Behavior [ RunTime:0.001901s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002046s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001611s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001697s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006001s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001525s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.005590s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000775s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000792s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000770s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000887s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000741s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000861s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000714s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000768s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000768s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005938s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000773s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000759s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000737s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000761s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000760s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run LocationTemplate Behavior [ RunTime:0.002140s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002242s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ParseTemplate Behavior [ RunTime:0.016004s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.016106s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ContentReplace Behavior [ RunTime:0.000915s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run TokenBuild Behavior [ RunTime:0.001390s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001280s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001446s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005299s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001167s ]
+[ 2013-03-25T22:35:41+08:00 ] /Ibike/index.php/Search/index?r=&p=1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001287s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --START--
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.001844s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001990s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001496s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001581s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.006356s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS2 pscws2.class.php 第 144 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class PSCWS23_Dict dict.class.php 第 48 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class xdb_Dictionary dict.class.php 第 148 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class dba_Dictionary dict.class.php 第 201 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class sql_Dictionary dict.class.php 第 257 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class txt_Dictionary dict.class.php 第 315 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Undefined index: search SearchAction.class.php 第 34 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [2048] Redefining already defined constructor for class XDB_R xdb_r.class.php 第 34 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Only variable references should be returned by reference pscws2.class.php 第 370 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_goods ORDER BY shelf_time; [ RunTime:0.001611s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.006804s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBAA63BC9C'; [ RunTime:0.000523s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBA89E4CE'; [ RunTime:0.000768s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBBFA1F028'; [ RunTime:0.000786s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBC05760A2'; [ RunTime:0.000791s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EBE4E84261'; [ RunTime:0.000788s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD0F39635'; [ RunTime:0.000908s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD1AC7827'; [ RunTime:0.000809s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD268AD41'; [ RunTime:0.000775s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='514EFD323010C'; [ RunTime:0.000732s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.005622s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='514EFDF03C91F'; [ RunTime:0.000821s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='51501B557F4D0'; [ RunTime:0.000860s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 55 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51501EB7C4C40'; [ RunTime:0.000800s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515021AF72F96'; [ RunTime:0.000804s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' SearchAction.class.php 第 61 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515022182C06E'; [ RunTime:0.000854s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | NOTIC: [8] Use of undefined constant r - assumed 'r' SearchAction.class.php 第 9 行.
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --START--
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.002027s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002123s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.015606s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015713s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.000957s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.001432s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001223s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.001691s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005573s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --START--
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001263s ]
+[ 2013-03-25T22:35:47+08:00 ] /Ibike/index.php/Search/index?r=&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001348s ]

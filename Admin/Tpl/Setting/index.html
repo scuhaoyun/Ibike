@@ -1,0 +1,97 @@
+<include file="Index://admin_top"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="__CSS__/reset.css" type="text/css" media="screen" />
+<!-- Main Stylesheet -->
+<link rel="stylesheet" href="__CSS__/style_icon.css" type="text/css" media="screen" />
+<!-- Invalid Stylesheet. This makes stuff look pretty. Remove it if you want the CSS completely valid -->
+<link rel="stylesheet" href="__CSS__/invalid.css" type="text/css" media="screen" />
+</head>
+<style type="text/css">
+body {
+	background-color:#F0F0F0;
+}
+.content-box {
+	width:96%;
+	margin:0 auto;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+   $("#radio1").click(function(){
+   		$(".sale_price").show("slow");
+		$(".rent_price").hide("slow");
+        $("#goods_inventory").show("slow");
+		});
+	$("#radio2").click(function(){
+   		$(".sale_price").hide("slow");
+		$(".rent_price").show("slow");
+        $("#goods_inventory").show("slow");
+		});
+	
+	var h = $(document).height();
+	$(".overlay").css({"height": "500px" });	
+	$("#but_sub").click(function(){
+		$(".overlay").css({'display':'block','opacity':'0.8'});
+		$(".showbox").stop(true).animate({'margin-top':'300px','opacity':'1'},400);
+		
+	});
+});
+</script>
+<body>
+<!--<div id="right">-->
+<div class="content-box">
+  <!-- Start Content Box -->
+  <div class="content-box-header">
+    <h3>系统设置 >> 基本信息</h3>
+    <div class="clear"></div>
+  </div>
+  <!-- End .content-box-header -->
+  <div class="content-box-content">
+    <form enctype="multipart/form-data" action="#" class="P10" method="POST">
+      <fieldset>
+      <table><tr>
+      <td width="65px;"><p> 网站名称：</p></td>
+     <td><p><input class="text-input medium-input datepicker" type="text" id="medium-input" name="medium-input" value="四川大学自行车网"  readonly="ture" style="width:400px;"/></p></td></tr>
+     
+     <td><p> 网站地址：</p></td>
+     <td><p><input class="text-input medium-input datepicker" type="text" id="medium-input" name="medium-input" value="http://localhost/Ibike/index.php"  readonly="ture" style="width:400px;"/></p></td></tr>
+     
+     <td><p> 备用地址：</p></td>
+     <td><p><input class="text-input medium-input datepicker" type="text" id="medium-input" name="medium-input" value="http://localhost/SCUbike/index.php"  readonly="ture" style="width:400px;"/></p></td></tr>
+     
+     <td><p> 运作时间：</p></td>
+     <td><p><input class="text-input medium-input datepicker" type="text" id="medium-input" name="medium-input" value="2014年6月21日 8:30"  readonly="ture" style="width:400px;"/></p></td></tr>
+     <tr><td><p>团队介绍：</p></td>
+     <td style=" vertical-align:top;"><textarea class="textarea" name="goods_desc" cols="45" rows="8" readonly="true">
+孙志娇：组长，组织小组成员讨论，负责网站一些主要流程的规定，界面美工等工作。
+王艺博：小组成员，网站管理员，后台程序编写者，美工，设计等工作！
+谭媛媛：小组成员，网站运行分析，bug检查，商业运作问题分析，组织讨论等工作。
+郝赟：小组成员，网站架构设计，后台代码编写，数据库设计，界面美工等工作。
+     </textarea></td></tr>
+      <tr><td><input class="button" id="but_sub" type="submit" value="修 改" onClick="javascript:alert('您无权限更改这些信息！请联系超级管理员！');" /></td></tr>
+      </table>
+      </fieldset>
+      <div class="clear"></div>
+    </form>
+  </div>
+  <!-- End .content-box-content -->
+</div>
+</div>
+<script type="text/javascript" language="javascript">
+var row_count = 0;
+function para_add()
+{
+   alert("dfadasf");
+   $("#tr13").show();
+   $("#table1 tr:last").show();
+}
+function para_out(){
+ $("#table1 tr:last").hide();
+}
+</script>
+</body>
+</html>

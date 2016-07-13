@@ -1,0 +1,2 @@
+<?php
+return array ( 0 => 'bid', 1 => 'blockclass', 2 => 'blocktype', 3 => 'name', 4 => 'title', 5 => 'classname', 6 => 'summary', 7 => 'uid', 8 => 'username', 9 => 'styleid', 10 => 'blockstyle', 11 => 'picwidth', 12 => 'picheight', 13 => 'target', 14 => 'dateformat', 15 => 'dateuformat', 16 => 'script', 17 => 'param', 18 => 'shownum', 19 => 'cachetime', 20 => 'punctualupdate', 21 => 'hidedisplay', 22 => 'dateline', 23 => 'notinherited', '_autoinc' => true, '_pk' => 'bid', ); ?>

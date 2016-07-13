@@ -1,0 +1,297 @@
+<include file="home_head"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="Shortcut Icon" href="__IMAGE__/ibike1.ico">
+<link rel="Bookmark" href="__IMAGE__/ibike1.ico">
+<script type="text/javascript" src="__JS__/jquery-1.8.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/slide.css" />
+<script type="text/javascript" src="__JS__/g.base.js"></script>
+</head>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+#middle_main {
+	background-color:#fff;
+	width:100%;
+	height:auto;
+	
+}
+a {
+	text-decoration:none;
+}
+#home_middle {
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+}
+#tab1 {
+	width:146px;
+	height:400px;
+	margin:0 0;
+	display:inline;
+	float:left;
+	border:1px #CCCCCC solid;
+	text-indent:10px;
+}
+#tab2 {
+	width:900px;
+	height:400px;
+	margin:0 0;
+	border:1px #CCCCCC solid;
+	display:inline;
+	float:right;
+}
+h3 {
+	background:url(__IMAGE__/div_tab_bg.png) repeat-x;
+	height:29px;
+	text-indent:5px;
+	
+}
+li {
+	list-style:none;
+}
+#tab3, #tab4, #tab5 {
+	height:200px;
+	margin:0 0;
+	display:inline;
+	border:1px #CCCCCC solid;
+	margin-top:10px;
+}
+#tab3 {
+	width:770px;
+	float:left;
+}
+#tab4 {
+	width:270px;
+	float:right;
+}
+#tab5 {
+	width:100%;
+	height:200px;
+	float:left;
+	text-indent:0px;
+}
+.goods {
+	width:320px;
+	height:270px;
+	background-color:#EBEBEB;
+}
+.goods_img {
+	width:320px;
+}
+#tab1 p a {
+	padding-left:10px;
+	background:url(__IMAGE__/list_plus.png) no-repeat center left;
+	vertical-align:middle;
+}
+.toggle_show {
+	padding-left:10px;
+	background:url(__IMAGE__/list_delete.png) no-repeat center left;
+	vertical-align:middle;
+}
+#small_info li {
+	list-style-image:url(__IMAGE__/list_image.png);
+	margin-bottom:3px;
+	margin-left:5px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+   /*$(".toggle_show").click(function(){
+   		$(this).removeClass("toggle_show");
+		$(this).addClass("toggle_hide");
+		$(this).parent().next("ul").toggle();
+   });*/
+   $("#tab1 p a").click(function(){
+		$(this).parent().next("ul").toggle();
+   });
+
+});
+</script>
+<body>
+<div id="middle_main">
+  <div id="home_middle">
+    <div id="tab1" style="overflow:hidden;">
+      <h3 style="color:red;margin-top:3px;">>>快速入口</h3>
+      <div><a href="__APP__/Search/index">随便看看</a></div>
+      <p><a href="#" class="toggle_show">出售</a></p>
+      <ul id="goods_sale" style="margin-left:15px;">
+        <li>
+          <p><a href="#" class="toggle_show" style="font-size:15px;">类型</a></p>
+          <ul style="margin-left:20px;" style="font-size:14px;">
+        <li><a href="__APP__/Search/index?goods_type=山地车&goods_service=出卖">山地车</a></li>
+        <li><a href="__APP__/Search/index?goods_type=公路车&goods_service=出卖">公路车</a></li>
+        <li><a href="#">女士车</a></li>
+        <li><a href="#">小轮车</a></li>
+        <li><a href="#">双人车</a></li>
+        <li><a href="#">多人车</a></li>
+        <li><a href="#">其他</a></li>
+      </ul>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">颜色</a></p>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">材质</a></p>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">价格</a></p>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">时间</a></p>
+      </li>
+      </ul>
+      <p><a href="#" >租赁</a></p>
+      <ul id="goods_rent" style="display:none;margin-left:15px;">
+        <li>
+          <p><a href="#"  style="font-size:15px;">类型</a></p>
+          <ul style="display:none;font-size:14px;margin-left:20px;">
+            <li><a href="#">山地车</a></li>
+            <li><a href="#">公路车</a></li>
+            <li><a href="#">女士车</a></li>
+            <li><a href="#">小轮车</a></li>
+            <li><a href="#">双人车</a></li>
+            <li><a href="#">多人车</a></li>
+            <li><a href="#">其他</a></li>
+          </ul>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">颜色</a></p>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">材质</a></p>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">价格</a></p>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">时间</a></p>
+        </li>
+      </ul>
+    </div>
+    <div id="tab2" class="container">
+      <div class="box">
+        <div id="slide"></div>
+        <script type="text/javascript">$("#slide").jdSlide({width:900,height:400,pics:[{src:"__IMAGE__/56.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type          :"img"},{src:"__IMAGE__/54.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"},{src:"__IMAGE__/55.jpg",href:                  
+		  "http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"},{src:"__IMAGE__/53.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"}]})   
+          </script>
+        slide end </div>
+    </div>
+    <div id="tab3">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />猜您喜欢</h3>
+    </div>
+    <div id="tab4" style="overflow:hidden;">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />小贴士</h3>
+      <ul id="small_info" style="margin-left:20px; margin-top:5px;">
+        <li><a href="#">夏天骑车注意六大危害 四大益处</a></li>
+        <li><a href="#">四川大学自行车协会近期活动时间</a></li>
+        <li><a href="#">自行车保养应当注意哪些方面</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+      </ul>
+    </div>
+    <div id="tab5">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />最新推荐</h3>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>
+<include file="home_footer"/>
+
+<!--<div id="middle_main">
+  <div id="home_middle">
+    <div id="tab1" style="overflow:hidden;">
+      <h3 style="color:red;margin-top:3px;">>>快速入口</h3>
+      <div><a href="__APP__/Search/index">随便看看</a></div>
+      <p><a href="#" class="toggle_show">出卖</a></p>
+      <ul id="goods_sale" style="margin-left:15px;">
+        <li>
+          <p><a href="#" class="toggle_show" style="font-size:15px;">类型</a></p>
+          <ul style="margin-left:20px;" style="font-size:14px;">
+        <li><a href="__APP__/Search/index?goods_type=山地车&goods_service=出卖">山地车</a></li>
+        <li><a href="__APP__/Search/index?goods_type=公路车&goods_service=出卖">公路车</a></li>
+        <li><a href="#">女士车</a></li>
+        <li><a href="#">小轮车</a></li>
+        <li><a href="#">双人车</a></li>
+        <li><a href="#">多人车</a></li>
+        <li><a href="#">其他</a></li>
+      </ul>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">颜色</a></p>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">材质</a></p>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">价格</a></p>
+      </li>
+      <li>
+        <p><a href="#"  style="font-size:15px;">时间</a></p>
+      </li>
+      </ul>
+      <p><a href="#" >出租</a></p>
+      <ul id="goods_rent" style="display:none;margin-left:15px;">
+        <li>
+          <p><a href="#"  style="font-size:15px;">类型</a></p>
+          <ul style="display:none;font-size:14px;margin-left:20px;">
+            <li><a href="#">山地车</a></li>
+            <li><a href="#">公路车</a></li>
+            <li><a href="#">女士车</a></li>
+            <li><a href="#">小轮车</a></li>
+            <li><a href="#">双人车</a></li>
+            <li><a href="#">多人车</a></li>
+            <li><a href="#">其他</a></li>
+          </ul>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">颜色</a></p>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">材质</a></p>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">价格</a></p>
+        </li>
+        <li>
+          <p><a href="#"  style="font-size:15px;">时间</a></p>
+        </li>
+      </ul>
+    </div>
+    <div id="tab2" class="container">
+      <div class="box">
+        <div id="slide"></div>
+        <script type="text/javascript">$("#slide").jdSlide({width:900,height:400,pics:[{src:"__IMAGE__/56.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type          :"img"},{src:"__IMAGE__/54.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"},{src:"__IMAGE__/55.jpg",href:                  
+		  "http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"},{src:"__IMAGE__/53.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"}]})   
+          </script>
+        slide end </div>
+    </div>
+    <div id="tab3">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />猜您喜欢</h3>
+    </div>
+    <div id="tab4" style="overflow:hidden;">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />小贴士</h3>
+      <ul id="small_info" style="margin-left:20px; margin-top:5px;">
+        <li><a href="#">夏天骑车注意六大危害 四大益处</a></li>
+        <li><a href="#">四川大学自行车协会近期活动时间</a></li>
+        <li><a href="#">自行车保养应当注意哪些方面</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+        <li><a href="#">夏天骑车注意六大危害</a></li>
+      </ul>
+    </div>
+    <div id="tab5">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />最新推荐</h3>
+    </div>
+  </div>
+  </div>-->

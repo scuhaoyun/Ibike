@@ -1,0 +1,180 @@
+[ 2013-05-13T22:05:49+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:05:49+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.048022s ]
+[ 2013-05-13T22:05:49+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.053931s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.205593s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: DELETE FROM think_shopcar WHERE 1368453950-add_time>7200 AND state='临时'; [ RunTime:0.185669s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_goods` [ RunTime:0.113999s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_goods ORDER BY shelf_time ASC; [ RunTime:0.032853s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_goods ORDER BY shelf_time DESC; [ RunTime:0.003510s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_sale_goods` [ RunTime:0.077221s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515424C6F1A93'; [ RunTime:0.007984s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515425541304D'; [ RunTime:0.000664s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515425D7343D3'; [ RunTime:0.000706s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5154267E6B8A7'; [ RunTime:0.001241s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515426F99700C'; [ RunTime:0.000969s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5154274F61CA7'; [ RunTime:0.001622s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D0B9537DB'; [ RunTime:0.001510s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D1F224754'; [ RunTime:0.001101s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D24AA9A94'; [ RunTime:0.000904s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D2E00FA45'; [ RunTime:0.000946s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D336E32D4'; [ RunTime:0.000743s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D37DC7E1A'; [ RunTime:0.000770s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D418E6E0A'; [ RunTime:0.000642s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D48BE0BBB'; [ RunTime:0.000825s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D4E63893C'; [ RunTime:0.001199s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D52A78126'; [ RunTime:0.000641s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SHOW COLUMNS FROM `think_rent_goods` [ RunTime:0.070735s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 21 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515A9C678812D'; [ RunTime:0.000705s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51721B155CE5F'; [ RunTime:0.000600s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517226E992047'; [ RunTime:0.000706s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5172B328A0A7D'; [ RunTime:0.000589s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5172B41C53F20'; [ RunTime:0.000475s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 21 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_rent_goods WHERE goods_num='517A6828B818F'; [ RunTime:0.000729s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517E141291949'; [ RunTime:0.000549s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517E14D0D9118'; [ RunTime:0.001027s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517E152089CCD'; [ RunTime:0.000511s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517E152089CCD'; [ RunTime:0.000569s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517E14D0D9118'; [ RunTime:0.000492s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517E141291949'; [ RunTime:0.000607s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 21 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_rent_goods WHERE goods_num='517A6828B818F'; [ RunTime:0.000651s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5172B41C53F20'; [ RunTime:0.000490s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5172B328A0A7D'; [ RunTime:0.001127s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='517226E992047'; [ RunTime:0.000486s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='51721B155CE5F'; [ RunTime:0.000807s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 21 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_rent_goods WHERE goods_num='515A9C678812D'; [ RunTime:0.000577s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D52A78126'; [ RunTime:0.000618s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D4E63893C'; [ RunTime:0.000570s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D48BE0BBB'; [ RunTime:0.000618s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D418E6E0A'; [ RunTime:0.000543s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D37DC7E1A'; [ RunTime:0.000504s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D336E32D4'; [ RunTime:0.000676s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D2E00FA45'; [ RunTime:0.000819s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D24AA9A94'; [ RunTime:0.000609s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D1F224754'; [ RunTime:0.000774s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5156D0B9537DB'; [ RunTime:0.000740s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5154274F61CA7'; [ RunTime:0.000996s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515426F99700C'; [ RunTime:0.000538s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='5154267E6B8A7'; [ RunTime:0.000660s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515425D7343D3'; [ RunTime:0.000626s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515425541304D'; [ RunTime:0.000480s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Use of undefined constant goods_num - assumed 'goods_num' DealAction.class.php 第 15 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_sale_goods WHERE goods_num='515424C6F1A93'; [ RunTime:0.000433s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Undefined index: username ShopcarAction.class.php 第 104 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | SQL: SELECT *FROM think_shopcar WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.013867s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.070588s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.070775s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Undefined index: username 7e4848229090366086cc7eeb3bfc0798.php 第 309 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Undefined index: sale_price 7e4848229090366086cc7eeb3bfc0798.php 第 1018 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Undefined index: sale_price 7e4848229090366086cc7eeb3bfc0798.php 第 1018 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Undefined index: sale_price 7e4848229090366086cc7eeb3bfc0798.php 第 1054 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | NOTIC: [8] Undefined index: sale_price 7e4848229090366086cc7eeb3bfc0798.php 第 1054 行.
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.212363s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.212488s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.014005s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.011541s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.007811s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.012362s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.046062s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.014316s ]
+[ 2013-05-13T22:05:50+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.014408s ]
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --START--
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run CheckRoute Behavior [ RunTime:0.024934s ]
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --END-- [ RunTime:0.025121s ]
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002168s ]
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002279s ]
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.010473s ]
+[ 2013-05-13T22:07:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: UPDATE think_shopcar SET add_time=1368454052 WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.001271s ]
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --START--
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run CheckRoute Behavior [ RunTime:0.001677s ]
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --END-- [ RunTime:0.001833s ]
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001220s ]
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001313s ]
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.006005s ]
+[ 2013-05-13T22:09:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: UPDATE think_shopcar SET add_time=1368454152 WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.001049s ]
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --START--
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run CheckRoute Behavior [ RunTime:0.002196s ]
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --END-- [ RunTime:0.002336s ]
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001620s ]
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001706s ]
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.005091s ]
+[ 2013-05-13T22:10:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: UPDATE think_shopcar SET add_time=1368454252 WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.002062s ]
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --START--
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run CheckRoute Behavior [ RunTime:0.001582s ]
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --END-- [ RunTime:0.001734s ]
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001208s ]
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001300s ]
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.005716s ]
+[ 2013-05-13T22:12:32+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: UPDATE think_shopcar SET add_time=1368454352 WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.000797s ]
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --START--
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run CheckRoute Behavior [ RunTime:0.002717s ]
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --END-- [ RunTime:0.002898s ]
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001877s ]
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002032s ]
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.005900s ]
+[ 2013-05-13T22:14:12+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: UPDATE think_shopcar SET add_time=1368454452 WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.000594s ]
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --START--
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run CheckRoute Behavior [ RunTime:0.001542s ]
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ route_check ] --END-- [ RunTime:0.001696s ]
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --START--
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001320s ]
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001405s ]
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: SHOW COLUMNS FROM `think_shopcar` [ RunTime:0.006858s ]
+[ 2013-05-13T22:15:52+08:00 ] /Ibike/index.php/Shopcar/state_deal | SQL: UPDATE think_shopcar SET add_time=1368454552 WHERE username='9roh7becg72isjj1je6pdik2v7'; [ RunTime:0.002374s ]

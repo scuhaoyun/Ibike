@@ -1,0 +1,364 @@
+<include file="home_head"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商品信息</title>
+<script type="text/javascript" src="__JS__/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="__JS__/ajax.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/cloud-zoom.css" />
+<script type="text/javascript" src="__JS__/cloud-zoom.1.0.2.js"></script>
+<!--<script type="text/javascript" src="http://www.jsfoot.com/skin/js/jquery.js"></script>-->
+<script type="text/javascript" src="__JS__/payfor.js"></script>
+</head>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+#middle_main {
+	/*background-color:#F7F6F8;*/
+	width:1366px;
+	height:auto;
+}
+a {
+	text-decoration:none;
+}
+#home_middle {
+	width:1050px;
+	height: auto;
+	margin:0 auto;
+	text-align:left;
+}
+#goods_look {
+	width:520px;
+	height:450px;
+	display:inline;
+	float:left;
+}
+ul li {
+	list-style:none;
+	float:left;
+	margin:0;
+}
+img {
+	border:none;
+}
+a.cloud-zoom img {
+	border:5px solid #000;
+}
+.block {
+	width:500px;
+	margin:30px auto;
+	text-align:left;
+}
+.block ul {
+	clear:both;
+}
+.block ul li img {
+	border:1px solid #fff;
+}
+.block ul li img:hover {
+	border:1px solid #FF0000;
+	float:left;
+}
+p.author {
+	clear:both;
+	text-align:center;
+	color:#999;
+	font-size:11px;
+}
+p.author a {
+	text-decoration:none;
+	color:#666;
+	border-bottom:1px dashed #CCC;
+}
+#smallimglist {
+	position:absolute;
+	left:15px;
+}
+#ullist {
+	width:510px;
+	height:82px;
+	overflow:hidden;
+	margin-top:5px;
+	position:relative;
+	vertical-align:middle;
+}
+#toleft {
+	position:absolute;
+	left:0px;
+	cursor:pointer;
+	z-index:5;
+}
+#toright {
+	position:absolute;
+	right:0px;
+	cursor:pointer;
+	z-index:5;
+}
+#goods_information {
+	width:500px;
+	height:440px;
+	display:inline;
+	float:right;
+	margin-top:20px;
+}
+#goods_information p {
+	margin:10px 10px;
+}
+.p_number {
+	width:480px;
+	height:30px;
+	display:block;
+	vertical-align:top;
+}
+.p_number .f_l {
+	float:left;
+}
+.p_number .add_chose {
+	width:105px;
+}
+.p_number .add_chose a {
+	float:left;
+	margin:5px 0 0 0;
+	display:block;
+	width:15px;
+	height:15px;
+	line-height:99em;
+	overflow:hidden;
+	background:url(__IMAGE__/reduce-add.gif) no-repeat;
+}
+.p_number .add_chose a.reduce {
+	background-position:0 0;
+}
+.p_number .add_chose a.reduce:hover {
+	background-position:0 -16px;
+}
+.p_number .add_chose a.add {
+	background-position:-16px 0;
+}
+.p_number .add_chose a.add:hover {
+	background-position:-16px -16px;
+}
+.p_number .add_chose .text {
+	float:left;
+	margin:0 5px;
+	display:inline;
+	border:solid 1px #ccc;
+	padding:4px 3px 4px 8px;
+	width:40px;
+	line-height:18px;
+	font-size:14px;
+	color:#990000;
+	font-weight:800;
+}
+.p_number .buy {
+	line-height:2em;
+}
+.p_number .buy .total-font {
+	font-family:Arial;
+	font-size:26px;
+}
+.p_number .buy .jifen {
+	margin-left:0px;
+	color:#ACACAC;
+	font-size:12px;
+}
+.p_number .buy .jifen b {
+	margin:0 0px;
+}
+.td_left {
+	height:34px;
+	width:15%;
+	text-align:center;
+	background-color:#F3FAFF;
+}
+.td_right {
+	text-indent:10px;
+}
+#para_table {
+	border-collapse:collapse;
+	table-layout:fixed;
+	margin:0 auto;
+	width:100%;
+}
+#para_table td {
+	border:solid 1px #cad9ea;
+	border-collapse:collapse;
+}
+#lkgm:hover {
+}
+</style>
+<script type="text/javascript">
+$(function(){
+  $('.cloud-zoom').attr('rel','adjustX:30');
+  var count=$("#smallimglist>li").length-5;
+  $("#toright").click(function(){
+      if(count<=0){
+		 $("#smallimglist").css("left","15px");
+		 count=$("#smallimglist>li").length-5;
+	   }
+      else{
+	     $("#smallimglist").animate({left:"-=96px"},"slow");
+		 count--;
+		 }
+	});
+   $("#toleft").click(function(){
+       if(count>=$("#smallimglist>li").length-5){
+	       var ledis=count*-96+15;
+		   $("#smallimglist").css("left",ledis);
+		   count=0;
+	   }else{
+	       $("#smallimglist").animate({left:"+=96px"},"slow");
+		   count++;
+	   }
+	 });
+	 $("#lkgm").hover(function(){$(this).attr("src","__IMAGE__/lkgm_bg1.png");},function(){$(this).attr("src","__IMAGE__/lkgm_bg.png");});
+	  $("#jrgwc").hover(function(){$(this).attr("src","__IMAGE__/jrgwc_bg1.png");},function(){$(this).attr("src","__IMAGE__/jrgwc_bg.png");});
+	  $("#rent_unit_select").change(function(){
+		 var nowselect=$(this).find('option:selected').text();
+	  	if(nowselect=='天'){$("#price_item_1").text("$<{$list[0]['day_price']}>");}
+		else if(nowselect=='小时'){$("#price_item_1").text("$<{$list[0]['hour_price']}>");}
+		else { $("#price_item_1").text("$<{$list[0]['month_price']}>");}
+	   $("#qty_item_1").keyup();
+	  });
+})
+</script>
+<body>
+<div id="middle_main">
+  <div id="home_middle">
+    <div id="goods_look">
+      <div class="block"> <a href="__UPLOAD__/<{$list[0]['goods_pic'][0]}>" class="cloud-zoom" id='zoom1'><img src="__UPLOAD__/m_<{$list[0]['goods_pic'][0]}>" /></a>
+        <div id="ullist"> <img src="__IMAGE__/toleft.png" id="toleft" /> <img src="__IMAGE__/toright.png" id="toright" />
+          <ul id="smallimglist">
+            <volist name="list[0]['goods_pic']" id="goods_pic">
+              <li><a href="__UPLOAD__/<{$goods_pic}>" class="cloud-zoom-gallery" rel="useZoom: 'zoom1', smallImage: '__UPLOAD__/m_<{$goods_pic}>'"><img width="94px" height="80px" src=   
+            "__UPLOAD__/s_<{$goods_pic}>" /></a></li>
+            </volist>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="goods_information">
+      <p>
+      <h3><{$list[0]['goods_name']}></h3>
+      </p>
+       <if condition="$list[0]['goods_service']=='出售'">
+      <p>市场价格：<font style="text-decoration:line-through;">$<{$list[0]['market_price']}></font> </p>
+      <p style="margin-top:-10px;">本店售价：<font color="#FF0000" size="+3">$<{$list[0]['sale_price']}></font> </p>
+      <p>物流运费：天津|至 四川成都卖家承担运费</p>
+      <p>库　　存：<{$list[0]['goods_inventory']}>件</p>
+      <p>宝贝类型：<{$list[0]['goods_new']}> | <{$list[0]['goods_browse']}>次浏览</p>
+      <p>评　　价：<img src="__IMAGE__/pingfen.png"/>4.9分 | <a href="#" style="color:#FBAE03;"><{$list[0]['goods_talk']}>条评价</a></p>
+      <p>上架时间：<{$list[0]['shelf_time']}></p>
+      <p>30天售出：244件</p>
+      <div id="add_count" style="width:480px; height:36px;">
+        <div class="p_number">
+          <div style="height:36px;font-size:16px; display:none;">商品单价：<strong id="price_item_1">$<{$list[0]['sale_price']}>
+          </strong></div>
+          <div class="f_l add_chose"> <a class="reduce" onClick="setAmount.reduce('#qty_item_1')" href="javascript:void(0)">-</a>
+            <input type="text" name="qty_item_1" value="1" id="qty_item_1" onKeyUp="setAmount.modify('#qty_item_1')" class="text" />
+            <a class="add" onClick="setAmount.add('#qty_item_1')" href="javascript:void(0)">+</a>
+          </div>
+          <div class="f_l buy"> 总价：<span class="total-font" id="total_item_1">$<{$list[0]['sale_price']}></span>
+            <input type="hidden" name="total_price" id="total_price" value="" />
+            <span class="jifen">购买商品可获得：<b id="total_points">18</b>积分</span> </div>
+        </div>
+        
+        <else />
+      <p>租赁价格：<font color="#FF0000" size="+3">$<{$list[0]['day_price']}></font><font color="#FF0000">/天</font> </p>
+      <p style="margin-top:-15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <font color="#FF0000">$<{$list[0]['hour_price']}>/小时 $<{$list[0]['month_price']}>/月</font> </p>
+      <p>物流运费：天津|至 四川成都卖家承担运费</p>
+      <p>库　　存：<{$list[0]['goods_inventory']}>件</p>
+      <p>宝贝类型：<{$list[0]['goods_new']}> | <{$list[0]['goods_browse']}>次浏览</p>
+      <p>评　　价：<img src="__IMAGE__/pingfen.png"/>4.9分 | <a href="#" style="color:#FBAE03;"><{$list[0]['goods_talk']}>条评价</a></p>
+      <p>上架时间：<{$list[0]['shelf_time']}></p>
+      <p>30天售出：244件</p>
+      <div id="add_count" style="width:480px; height:36px;">
+        <div class="p_number">
+          <div style="height:36px;font-size:16px; display:none;">商品单价：<strong id="price_item_1">$<{$list[0]['day_price']}>
+          </strong></div>
+          <div class="f_l add_chose"> <a class="reduce" onClick="setAmount.reduce('#qty_item_1')" href="javascript:void(0)">-</a>
+            <input type="text" name="qty_item_1" value="1" id="qty_item_1" onKeyUp="setAmount.modify('#qty_item_1')" class="text" />
+            <a class="add" onClick="setAmount.add('#qty_item_1')" href="javascript:void(0)">+</a>
+          </div>
+            <div class="unit_select" style=" width:50px; height:25px; display:inline; float:left; margin-right:10px; vertical-align:middle;">
+            <select name="unit" id="rent_unit_select" style="margin-top:3px;">
+            <option value="天" selected="selected">天</option>
+			<option value="小时">小时</option>
+			<option value="月" >月</option>
+			</select> </div>
+          <div class="f_l buy"> 总价：<span class="total-font" id="total_item_1">$<{$list[0]['sale_price']}></span>
+            <input type="hidden" name="total_price" id="total_price" value="" />
+            <span class="jifen">购买商品可获得：<b id="total_points">18</b>积分</span> </div>
+        </div>
+        </if>
+        
+        <div style="margin:10px 0px 10px 0px;">
+         <a href="__APP__/Shopcar/index" onClick="nowbuy()" style="margin-right:20px;"><img id="lkgm" src="__IMAGE__/lkgm_bg.png"/></a>
+         <a href="#dsf" onClick="addIntoShopcar()"><img id="jrgwc" src="__IMAGE__/jrgwc_bg.png"/></a></div>
+        <div style="width:500px; margin-left:10px;overflow:hidden">
+          <!-- JiaThis Button BEGIN -->
+          <div id="jiathis_style_32x32"> <a class="jiathis_button_qzone"></a> <a class="jiathis_button_tsina"></a> <a class="jiathis_button_tqq"></a> <a class="jiathis_button_renren"></a> <a class="jiathis_button_kaixin001"></a> <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a> <a class="jiathis_counter_style"></a> </div>
+          <script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+    <div class="goods_desc" style="width:292px; height:250px;border:1px #CCCCCC solid; margin-top:10px; display:inline; float:left;">
+      <div style=" width:100%; background:url(__IMAGE__/div_tab_bg.png) repeat-x;height:29px;text-indent:5px; vertical-align:middle;">
+        <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />您浏览过的商品</h3>
+      </div>
+    </div>
+    <div class="goods_desc" style="width:750px; height:auto;border:1px #CCCCCC solid; margin-top:0px; display:inline; float:right;">
+      <div class="goods_desc_head" style=" width:100%; background:url(__IMAGE__/div_tab_bg.png) repeat-x;height:29px;text-indent:5px; vertical-align:middle;">
+        <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />宝贝详情</h3>
+      </div>
+      <table id="para_table" cellspacing="0" cellpadding="0" frame="void">
+        <foreach name="list[0]['goods_para']" item="para">
+          <if condition="!($key%2)" >
+            <tr>
+              <td class="td_left"><p style="font-size:14px;"><{$para}></p></td>
+              <else />
+              <td class="td_right"><p style="font-size:14px;"><{$para}></p></td>
+            </tr>
+          </if>
+        </foreach>
+      </table>
+      <foreach name="list[0]['desc_pic']" item="pic"> <img src="__UPLOAD__/<{$pic}>" /> </foreach>
+    </div>
+  </div>
+  </div>
+<include file="home_footer"/>
+<script> 
+function addIntoShopcar()
+　　{   
+         var ajax1=Ajax();
+		 var count =document.getElementById("qty_item_1").value;
+		 var goods_num='<{$list[0]['goods_num']}>';
+		 <if condition="$list[0]['goods_service']=='出售'">
+		 var time_unit='';
+		 <else />var time_unit=document.getElementById("rent_unit_select").value;　
+		 </if>
+		ajax1.post("__APP__/Shopcar/addIntoShopcar", {count:count,goods_num:goods_num,time_unit:time_unit}, function(data){});
+		alert("加入购物车成功！");
+		location.reload();
+			
+　　} 
+ function nowbuy()
+ {
+        var ajax2=Ajax();
+		  var count =document.getElementById("qty_item_1").value;
+		 var goods_num='<{$list[0]['goods_num']}>';
+		  <if condition="$list[0]['goods_service']=='出售'">
+		 var time_unit='';
+		 <else />var time_unit=document.getElementById("rent_unit_select").value;　
+		 </if>
+		ajax2.post("__APP__/Shopcar/addIntoShopcar", {count:count,goods_num:goods_num,time_unit:time_unit}, function(data){});
+		//window.open("__APP__/Shopcar/index");
+ }
+
+</script>
+</body>
+</html>

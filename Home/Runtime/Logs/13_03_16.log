@@ -1,0 +1,40 @@
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.009936s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.010103s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.020283s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.020402s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | NOTIC: [8] Undefined variable: list 7e4848229090366086cc7eeb3bfc0798.php 第 11 行.
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | NOTIC: [8] Undefined variable: page 7e4848229090366086cc7eeb3bfc0798.php 第 14 行.
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.066385s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.066465s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.014060s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.004991s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.010398s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.001586s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.031308s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.005296s ]
+[ 2013-03-16T12:44:58+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.005381s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --START--
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.038185s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.061817s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --START--
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run LocationTemplate Behavior [ RunTime:0.049482s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.049754s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --START--
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | NOTIC: [8] Undefined variable: list 7e4848229090366086cc7eeb3bfc0798.php 第 11 行.
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | NOTIC: [8] Undefined variable: page 7e4848229090366086cc7eeb3bfc0798.php 第 14 行.
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run ParseTemplate Behavior [ RunTime:0.069195s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.069324s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --START--
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run ContentReplace Behavior [ RunTime:0.014629s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run TokenBuild Behavior [ RunTime:0.004915s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.010547s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002041s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.032451s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --START--
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.004866s ]
+[ 2013-03-16T19:57:03+08:00 ] /Ibike/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.004969s ]

@@ -1,0 +1,252 @@
+<include file="Index://admin_top"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<script type="text/javascript" src="__JS__/ajax.js"></script>
+<style type="text/css">
+.content-box {
+	width:96%;
+	margin:0 auto;
+}
+.searchbox {
+	background:url(__IMAGE__/search_order12.png) no-repeat;
+	width:270px;
+	height:34px;
+	position:absolute;
+	top:3px;
+	right:20px;
+}
+.searchbox input {
+	color:#999;
+	font-size:13px;
+	font-family:"宋体";
+	width:230px;
+	margin:7px 0 0 8px;
+	float:left;
+	display:inline-block;
+	border:0;
+	background:none;
+	padding:2px 0 2px 16px;
+	height:16px;
+	line-height:1.4;
+}
+.searchbox input.focus_text {
+	color:#333;
+	background:#fff;
+	width:178px;
+	padding-left:0;
+}
+.searchbox input.blur_text {
+	color:#999;
+}
+.searchbox .btnimg {
+	border:0;
+	background:none;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	width:82px;
+	line-height:999em;
+	height:34px;
+	overflow:hidden;
+	float:right;
+}
+#order_info_table {
+	width:100%;
+	font-size:14px;
+}
+#order_info_table tr {
+	height:30px;
+	vertical-align:middle;
+}
+#goods_info_table {
+	width:98%;
+	height:auto;
+	text-align:center;
+	vertical-align:middle;
+	margin:20px auto;
+	font-size:14px;
+	text-decoration:none;
+	border-left:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;
+}
+#goods_tr td {
+	border-bottom:1px solid #DDDDDD;
+}
+.td_left {
+	text-align:right;
+}
+.goods_list_tr td {
+	border-right:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+}
+.order_state_div,.order_delete_div{ width:80px; height:30px; display:inline; float:left; margin-left:10px; text-align:center; vertical-align:middle; cursor:pointer;}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    var keywords = "请输入订单号！";
+
+    $("#birds").val(keywords).bind("focus",function(){
+		if (this.value == keywords){
+			this.value = "";
+			this.className = "focus_text"
+		}
+	}).bind("blur", function(){
+		if (this.value == "") {
+			this.value = keywords;
+			this.className = "blur_text"
+		}
+	});
+	
+    $(".order_state_div").click(function(){
+	   var order_num=$(this).attr("name");
+	   var order_state=$(this).attr("title");
+	   var ajax=Ajax();
+	   ajax.post("__APP__/Orderadmin/change_state", {order_num:order_num,order_state:order_state}, function(data){document.location.reload();});
+	});
+   $(".order_delete_div").click(function(){
+	   var order_num=$(this).attr("name");
+	   var ajax1=Ajax();
+	   ajax1.post("__APP__/Orderadmin/delete_order", {order_num:order_num}, function(data){document.location.reload();});
+	});
+});
+</script>
+<body>
+<!--<div id="right">-->
+<div class="content-box">
+  <!-- Start Content Box -->
+  <div class="content-box-header" style="position:relative;">
+    <h3>订单管理</h3>
+    <div class="searchbox">
+      <form enctype="multipart/form-data" action="__APP__/Orderadmin/index"  method="POST">
+        <input type="text" id="birds" name="order_num" class="stext" value="">
+        <input class="btnimg" type="submit" value="" />
+      </form>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="content-box-content">
+  <if condition="$all_order neq null">
+    <foreach name="all_order" item="goods">
+      <div style="width:100%; height:30px; margin-top:10px; padding-left:30px;">
+        <div class="order_state_div" title="未付款" name="<{$goods[0]['order_num']}>" style="background:#CCCC00;"> <h3 style="margin-top:8px;">未付款</h3></div>
+        <div class="order_state_div" title="已付款" name="<{$goods[0]['order_num']}>" style="background:#66FFFF;" > <h3 style="margin-top:8px;">已付款</h3></div>
+        <div class="order_state_div" title="已发货" name="<{$goods[0]['order_num']}>" style="background:#FF9933;"> <h3 style="margin-top:8px;">已发货</h3></div>
+        <div class="order_state_div" title="已确认收货" name="<{$goods[0]['order_num']}>" style="background:#3399CC; width:110px;"> <h3 style="margin-top:8px;">已确认收货</h3></div>
+        <div class="order_state_div" title="已评价" name="<{$goods[0]['order_num']}>" style="background:#33CC00;"> <h3 style="margin-top:8px;">已评价</h3></div>
+        <div class="order_delete_div" name="<{$goods[0]['order_num']}>" style="background:#DC504A;"> <h3 style="margin-top:8px;">删除</h3></div>
+      </div>
+      <if condition="$goods[0]['order_state']=='未付款'"><div class="order_info_main" style="width:100%; height:auto; border:#CCCC00 2px solid;">
+                             <div style="background:#CCCC00; width:100%; height:3px;"></div>
+      <elseif condition="$goods[0]['order_state']=='已付款'" /><div class="order_info_main" style="width:100%; height:auto; border:#66FFFF 2px solid;">
+                             <div style="background:#66FFFF; width:100%; height:3px;"></div>
+      <elseif condition="$goods[0]['order_state']=='已发货'" /><div class="order_info_main" style="width:100%; height:auto; border:#FF9933 2px solid;">
+                             <div style="background:#FF9933; width:100%; height:3px;"></div>
+      <elseif condition="$goods[0]['order_state']=='已确认收货'" /><div class="order_info_main" style="width:100%; height:auto; border:#3399CC 2px solid;">
+                             <div style="background:#3399CC; width:100%; height:3px;"></div>
+      <elseif condition="$goods[0]['order_state']=='已评价'" /><div class="order_info_main" style="width:100%; height:auto; border:#33CC00 2px solid;">
+                             <div style="background:#33CC00; width:100%; height:3px;"></div>  
+       <else /><div class="order_info_main" style="width:100%; height:auto; border:#CCCC00 2px solid;">
+                             <div style="background:#CCCC00; width:100%; height:3px;"></div>
+       </if>
+
+
+     <!-- <switch name="$goods[0]['order_state']">
+        <case value="已付款"><div class="order_info_main" style="width:100%; height:auto; border:#CCCC00 2px solid;">
+                             <div style="background:#CCCC00; width:100%; height:3px;"></div></case>
+		<case value="已付款"><div class="order_info_main" style="width:100%; height:auto; border:#66FFFF 2px solid;">
+                             <div style="background:#66FFFF; width:100%; height:3px;"></div></case>
+        <case value="已发货"><div class="order_info_main" style="width:100%; height:auto; border:#FF9933 2px solid;">
+                             <div style="background:#FF9933; width:100%; height:3px;"></div></case> 
+        <case value="已确认收货"><div class="order_info_main" style="width:100%; height:auto; border:#3399CC 2px solid;">
+                             <div style="background:#3399CC; width:100%; height:3px;"></div></case>
+        <case value="已评价"> <div class="order_info_main" style="width:100%; height:auto; border:#33CC00 2px solid;">
+                             <div style="background:#33CC00; width:100%; height:3px;"></div></case>                                       
+		<default /><div class="order_info_main" style="width:100%; height:auto; border:#CCCC00 2px solid;">
+                             <div style="background:#CCCC00; width:100%; height:3px;"></div>
+	  </switch>-->
+        <table id="order_info_table">
+          <tr>
+            <td class="td_left">订单号：</td>
+            <td style="width:86%;"><font color="#DC130F"><{$goods[0]['order_num']}></font></td>
+          </tr>
+          <tr>
+            <td class="td_left">当前订单状态：</td>
+            <td style="width:86%;"><font color="#DC130F"><{$goods[0]['order_state']}></font></td>
+          </tr>
+          <tr>
+            <td class="td_left">收货人信息：</td>
+            <td style="width:86%;"><{$goods[0]['customer_name']}>，<{$goods[0]['mobile']}>，<{$goods[0]['email']}>，<{$goods[0]['address']}>，  
+              <{$goods[0]['postal_code']}></td>
+          </tr>
+          <tr>
+            <td class="td_left">买家留言：</td>
+            <td style="width:86%;"><{$goods[0]['note']}></td>
+          </tr>
+          <tr>
+            <td class="td_left">配送方式：</td>
+            <td style="width:86%;">快递，国内快递公司</td>
+          </tr>
+          <tr>
+            <td class="td_left">支付方式：</td>
+            <td style="width:86%;"><{$goods[0]['pay_way']}></td>
+          </tr>
+          <tr>
+            <td class="td_left">应付总金额：</td>
+            <td style="width:86%;"><font color="#DC130F"><{$goods[0]['all_price']}>元</font></td>
+          </tr>
+          <tr>
+            <td class="td_left">订单提交时间：</td>
+            <td style="width:86%;"><{$goods[0]['trade_time']}></td>
+          </tr>
+        </table>
+        <table cellspacing="0" id="goods_info_table" cellpadding="0" >
+          <tr id="goods_tr" style="background-color:#E8F2FF; height:35px; ">
+            <td>宝贝</td>
+            <td>名称</td>
+            <td width="6%">服务</td>
+            <td width="8%" >状态</td>
+            <td width="11%" >单价（元）</td>
+            <td width="8%">数量/时间</td>
+            <td width="6%" >送积分</td>
+            <td width="8%">优惠</td>
+            <td width="11%">商品总价（元）</td>
+            <td style="border-right:1px solid #DDDDDD; width:6%;">运费</td>
+          </tr>
+          <foreach name="goods" item="info" key="i">
+            <if condition="$i neq 0">
+              <tr style="height:80px;" class="goods_list_tr">
+                <td><img height="70px" width="105px" src="__UPLOAD__/s_<{$info['goods_pic'][0]}>" /></td>
+                <td><a href="#"><{$info['goods_name']}></a></td>
+                <td><{$info['goods_service']}></td>
+                <td><{$info['state']}></td>
+                <td><if condition="$info['time_unit']==''"><{$info['sale_price']}>
+                    <else />
+                    <p><{$info['day_price']}>/天</p>
+                    <p><{$info['hour_price']}>/小时</p>
+                    <p><{$info['month_price']}>/月</p>
+                  </if>
+                </td>
+                <td><{$info['count']}> <{$info['time_unit']}></td>
+                <td><{$info['score']}></td>
+                <td><{$info['discount']}></td>
+                <td><{$info['unit_price']}></td>
+                <td><{$info['trans_fee']}></td>
+              </tr>
+            </if>
+          </foreach>
+        </table>
+        <div id="sfk" style=" width:98%; margin:20px auto; text-align:right; vertical-align:middle;">实付款：<font color="#DC130F"><{$goods[0]['all_price']}>元</font></div>
+      </div>
+    </foreach>
+     <else />没有您要查询的订单！
+        </if>
+  </div>
+  <!-- End .content-box-content -->
+</div>
+
+</body>
+</html>

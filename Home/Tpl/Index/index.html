@@ -1,0 +1,499 @@
+<include file="home_head"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>四川大学自行车网</title>
+<link rel="Shortcut Icon" href="__IMAGE__/ibike1.ico">
+<link rel="Bookmark" href="__IMAGE__/ibike1.ico">
+<script type="text/javascript" src="__JS__/jquery-1.3.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="__CSS__/slide.css" />
+<LINK rel=stylesheet type=text/css href="__CSS__/img_lrtk.css">
+<script type="text/javascript" src="__JS__/g.base.js"></script>
+
+</head>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+#middle_main {
+	background-color:#fff;
+	width:1366px;
+	height:auto;
+	
+}
+a {
+	text-decoration:none;
+	outline:none;
+}
+#home_middle {
+	width:1050px;
+	height:auto;
+	margin:0 auto;
+}
+#tab1 {
+	width:146px;
+	height:401px;
+	margin:0 0;
+	display:inline;
+	float:left;
+	text-indent:10px;
+	position:relative;
+	z-index:999999;
+}
+a,img{border:0;}
+body{font-family:"宋体",Arial,Lucida,Verdana,Helvetica,sans-serif;font-size:12px;color:#333;line-height:150%;background:#fff;}
+a:link,a:visited{color:#333;text-decoration:none;}
+a:hover{color:#c00;text-decoration:none;}
+a:active{color:#900;}
+/* navsort */
+.allsort .mt .extra,.allsort s,.allsort .close{background:url(__IMAGE__/nav-sort.gif) no-repeat;}
+<!--.navsort{width:960px;height:50px;background-position:0 1px;background-repeat:repeat-x;margin:40px auto 0 auto;}-->
+/*allsort*/
+.allsort{float:left;width:138px;height:1px;background-position:0px -101px;position:relative;z-index:9;}
+.allsort .mt{height:24px;padding:14px 12px 12px 16px;line-height:24px;cursor:pointer;overflow:hidden;}
+.allsort .mt strong{float:left;font-size:14px;color:#630;}
+.allsort .mt .extra{float:right;overflow:hidden;width:22px;height:23px;background-position:-214px -52px; text-align:center;}
+.allsort .mc{position:absolute;top:0px;overflow:visible;width:138px;padding:0 3px 0;border:solid #C40000;border-width:1px 1px 1px;background:#FEF8EF;-moz-border-radius:0 0 5px 5px;-webkit-border-radius:0 0 5px 5px; z-index:1;}
+.allsort .item{width:138px;height:32px;border-top:1px solid #FDE6D2;}
+.allsort .fore{}
+.allsort span{display:block;width:132px;position:relative;z-index:1;}
+.allsort h3{font-size:14px;width:112px;height:30px;padding-left:12px;border:solid #FEF8EF;border-width:1px 0 1px 1px;background-position:-241px -57px;font-weight:normal;}
+.allsort h3 a:link,.allsort h3 a:visited{display:block;height:30px;line-height:30px;color:#333;}
+.allsort h3 a:hover,.allsort h3 a:active{color:#1B578A;}
+.allsort s{display:block;position:absolute;top:10px;left:123px;width:13px;height:13px;background-position:-218px -106px;}
+.allsort .item .i-mc{display:none;position:absolute;left:127px;top:0px;width:700px;border:1px solid #c30;background:#FFF9EF;overflow:hidden;}
+.allsort .item dt{padding:3px 6px 0 0;font-weight:bold;}
+.allsort .item dd{padding:3px 0 0;overflow:hidden;zoom:1;}
+.allsort .subitem{float:left;width:464px;min-height:400px;padding:0 4px 0 8px;}
+.allsort .subitem dl{border-top:1px solid #FFEFD7;padding:6px 0;overflow:hidden;zoom:1;}
+.allsort .subitem .fore{border-top:none;}
+.allsort .subitem dt{float:left;width:54px;line-height:22px;text-align:right;color:#c00;}
+.allsort .subitem dd{float:left;width:402px;}
+.allsort .subitem em{float:left;height:14px;margin:4px 0;line-height:14px;padding:0 8px;border-left:1px solid #ccc;font-style:normal;white-space:nowrap;}
+.allsort .fr{background:#fff;width:194px;padding:0 15px 2010px 15px;margin-bottom:-2000px;float:right;}
+.allsort .fr dl{padding-bottom:0;}
+.allsort .mc .extra{padding:7px 8px;background:#FDF1DE;border-top:1px solid #FDE6D2; height:20px;}
+.allsorthover{background-position:0 -50px;}
+.allsorthover .mt .extra{background-position:-214px -75px;}
+.allsorthover .mc{display:block;}
+.allsort .hover span{z-index:13;width:160px;}
+.allsort .hover h3{font-size:14px;border:solid #c30;border-width:1px 0 1px 1px;overflow:hidden;background:url(images/nav-sort.gif) #FFF9EF no-repeat -241px -57px;font-weight:bold;}
+.allsort .hover s{display:none;}
+.allsort .hover .i-mc{display:block;z-index:12;}
+*html .allsort .item dd{padding-bottom:6px;}
+*html .allsort .subitem{height:400px;}
+.allsort .close{position:absolute;top:6px;left:674px;z-index:14;width:19px;height:19px;background-position:-216px -125px;cursor:pointer;}
+#tab2 {
+	width:900px;
+	height:400px;
+	margin:0 0;
+	border:1px #CCCCCC solid;
+	display:inline;
+	float:left;
+	z-index:-1;
+}
+h3 {
+	background:url(__IMAGE__/div_tab_bg.png) repeat-x;
+	height:29px;
+	text-indent:5px;
+	
+}
+li {
+	list-style:none;
+}
+#tab3, #tab4, #tab5 {
+	height:212px;
+	margin:0 0;
+	display:inline;
+	border:1px #CCCCCC solid;
+	margin-top:10px;
+}
+#tab3 {
+	width:800px;
+	float:left;
+}
+#tab4 {
+	width:240px;
+	float:right;
+}
+#tab5 {
+	width:100%;
+	float:left;
+	text-indent:0px;
+}
+.goods {
+	width:320px;
+	height:270px;
+	background-color:#EBEBEB;
+}
+.goods_img {
+	width:320px;
+}
+.toggle_show {
+	padding-left:10px;
+	background:url(__IMAGE__/list_delete.png) no-repeat center left;
+	vertical-align:middle;
+}
+#small_info li {
+	list-style-image:url(__IMAGE__/list_image.png);
+	margin-bottom:3px;
+	margin-left:5px;
+}
+.tab5_featureContainer,.tab5_block{ width:1050px;}
+#tab5_featureBox,#tab5_box{ width:210px;}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+   /*$(".toggle_show").click(function(){
+   		$(this).removeClass("toggle_show");
+		$(this).addClass("toggle_hide");
+		$(this).parent().next("ul").toggle();
+   });*/
+   $("#tab1 p a").click(function(){
+		$(this).parent().next("ul").toggle();
+   });
+   
+   
+   $.fn.hoverForIE6=function(option){
+		var s=$.extend({current:"hover",delay:10},option||{});
+		$.each(this,function(){
+			var timer1=null,timer2=null,flag=false;
+			$(this).bind("mouseover",function(){
+				if (flag){
+					clearTimeout(timer2);
+				}else{
+					var _this=$(this);
+					timer1=setTimeout(function(){
+						_this.addClass(s.current);
+						flag=true;
+					},s.delay);
+				}
+			}).bind("mouseout",function(){
+				if (flag){
+					var _this=$(this);timer2=setTimeout(function(){
+						_this.removeClass(s.current);
+						flag=false;
+					},s.delay);
+				}else{
+					clearTimeout(timer1);
+				}
+			})
+		})
+	}
+	
+	var goods_count=<{$goods_count}>;
+	var count=0;
+	$("#tab3_next").click(function(){
+	    if(count<goods_count-4){$("#tab3_featureUL").animate({left:"-=200px"},"slow");
+        count++;}
+	});
+	$("#tab3_prev").click(function(){
+	    if(count>0){$("#tab3_featureUL").animate({left:"+=200px"},"slow");
+         count--;}
+	});
+	$(".likeinfo").hover(function(){
+	   if(count>0){$("#tab3_prev").show();}
+	   if(count<goods_count-4){$("#tab3_next").show();}
+	},
+	function(){$("#tab3_next,#tab3_prev").hide();
+	});
+	
+	var goods_count1=<{$goods_count}>;
+	var count1=0;
+	$("#tab5_next").click(function(){
+	    if(count1<goods_count1-5){$("#tab5_featureUL").animate({left:"-=210px"},"slow");
+        count1++;}
+	});
+	$("#tab5_prev").click(function(){
+	    if(count1>0){$("#tab5_featureUL").animate({left:"+=210px"},"slow");
+         count1--;}
+	});
+	$(".tab5_featureContainer").hover(function(){
+	   if(count1>0){$("#tab5_prev").show();}
+	   if(count1<goods_count-5){$("#tab5_next").show();}
+	},
+	function(){$("#tab5_next,#tab5_prev").hide();
+	});
+
+});
+</script>
+<body>
+<div id="middle_main">
+  <div id="home_middle">
+    <div id="tab1" style="overflow:visible;">
+      <div class='allsort'>
+		
+		<!--<div class='mt'><strong><a href="#">全部商品分类</a></strong><div class='extra'>&nbsp;</div></div>-->
+		
+		<div class='mc'>
+        <div class='extra'><a href='__APP__/Search/condition'>随便看看</a></div>
+			<div class='item fore' style="background-color:#FDF1DE;">
+				<span><h3><a href="__APP__/Search/condition?goods_service=出售&">出售</a></h3><s></s></span>
+				<div class='i-mc'>
+					<div class='close' onClick="$(this).parent().parent().removeClass('hover')"></div>
+					<div class='subitem'>
+						<dl class='fore'>
+							<dt>类型</dt>
+							<dd>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_type=山地车&'>山地自行车</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_type=公路车&'>公路自行车</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_type=小轮车&'>城市小轮车</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_type=休闲车&'>城市休闲车</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_type=女款车&'>女款自行车</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_type=头盔&'>头盔</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_type=车架&'>车架</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_type=骑行装备&'>骑行装备</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>颜色</dt>
+							<dd>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=黑色&'>黑色</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=白色&'>白色</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=红色&'>红色</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=蓝色&'>蓝色</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>材质</dt>
+							<dd>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=碳纤维&'>碳纤维</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=塑料&'>塑料</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=铝合金&'>铝合金</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&search=钢铁&'>钢铁</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>价格</dt>
+							<dd>
+								<em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=0&sale_high_price=200&'>0-200</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=200&sale_high_price=400&'>200-400</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=400&sale_high_price=600&'>400-600</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=600&sale_high_price=800&'>600-800</a></em>
+                                 <em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=800&sale_high_price=1000&'>800-1000</a></em>
+                                 <em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=1000&sale_high_price=1500&'>1000-1500</a></em>
+                                 <em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=1500&sale_high_price=2000&'>1500-2000</a></em>
+                                 <em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=2000&sale_high_price=3000&'>2000-3000</a></em> 
+                                 <em><a href='__APP__/Search/condition?goods_service=出售&sale_low_price=3000&'>3000以上</a></em>
+                                 <em><a href='__APP__/Search/condition?goods_service=出售&'>全部</a></em>  
+							</dd>
+						</dl>
+						<dl>
+							<dt>厂家</dt>
+							<dd>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=捷安特&'>捷安特</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=弛维&'>弛维</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=宝马&'>宝马</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&search=奔驰&'>奔驰</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>新旧</dt>
+							<dd>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_new=全新&'>全新</a></em>
+								<em><a href='__APP__/Search/condition?goods_service=出售&goods_new=九成新&'>九成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=八成新&'>八成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=七成新&'>七成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=六成新&'>六成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=五成新&'>五成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=四成新&'>四成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=三成新&'>三成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=二成新&'>二成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&goods_new=一成新&'>一成新</a></em>
+                                <em><a href='__APP__/Search/condition?goods_service=出售&'>全部</a></em>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			
+            <div class='item' style="background-color:#FDF1DE;">
+				<span><h3><a href="__APP__/Search/condition?goods_service=租赁"">租赁</a></h3><s></s></span>
+				<div class='i-mc'>
+					<div class='close' onClick="$(this).parent().parent().removeClass('hover')"></div>
+					<div class='subitem'>
+						<dl class='fore'>
+							<dt>类型</dt>
+							<dd>
+								<em><a href='#'>山地自行车</a></em>
+								<em><a href='#'>公路自行车</a></em>
+								<em><a href='#'>城市小轮车</a></em>
+								<em><a href='#'>城市休闲车</a></em>
+								<em><a href='#'>女款自行车</a></em>
+                                <em><a href='#'>碳纤维自行车</a></em>
+                                <em><a href='#'>运动童车</a></em>
+                                <em><a href='#'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>颜色</dt>
+							<dd>
+								<em><a href='#'>黑色</a></em>
+								<em><a href='#'>白色</a></em>
+								<em><a href='#'>红色</a></em>
+								<em><a href='#'>蓝色</a></em>
+								<em><a href='#'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>材质</dt>
+							<dd>
+								<em><a href='#'>碳纤维</a></em>
+								<em><a href='#'>塑料</a></em>
+								<em><a href='#'>铝合金</a></em>
+                                <em><a href='#'>钢铁</a></em>
+								<em><a href='#'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>价格</dt>
+							<dd>
+								<em><a href='#'>0-200</a></em>
+								<em><a href='#'>200-400</a></em>
+								<em><a href='#'>400-600</a></em>
+                                <em><a href='#'>600-800</a></em>
+                                 <em><a href='#'>800-1000</a></em>
+                                 <em><a href='#'>1000-1500</a></em>
+                                  <em><a href='#'>1500-2000</a></em>
+                                 <em><a href='#'>2000-3000</a></em> 
+                                 <em><a href='#'>3000以上</a></em>  
+							</dd>
+						</dl>
+						<dl>
+							<dt>厂家</dt>
+							<dd>
+								<em><a href='#'>捷安特</a></em>
+								<em><a href='#'>弛维</a></em>
+								<em><a href='#'>宝马</a></em>
+								<em><a href='#'>奔驰</a></em>
+								<em><a href='#'>全部</a></em>
+							</dd>
+						</dl>
+						<dl>
+							<dt>新旧</dt>
+							<dd>
+								<em><a href='#'>全新</a></em>
+								<em><a href='#'>九成新</a></em>
+                                <em><a href='#'>八成新</a></em>
+                                <em><a href='#'>七成新</a></em>
+                                <em><a href='#'>六成新</a></em>
+                                <em><a href='#'>五成新</a></em>
+                                <em><a href='#'>四成新</a></em>
+                                <em><a href='#'>三成新</a></em>
+                                <em><a href='#'>二成新</a></em>
+                                <em><a href='#'>一成新</a></em>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+            
+         
+			<div class='extra' style="height:18px;"><a href='#'>零部件</a></div>
+            <div class='extra' style="height:18px;"><a href='__APP__/Search/condition?goods_service=出售&goods_type=骑行装备&'>骑车装备</a></div>
+            <div class='extra' style="height:18px;"><a href='__APP__/Search/condition?goods_service=出售&goods_type=车架&'>自行车车架</a></div>
+            <div class='extra' style="height:18px;"><a href='#'>租车流程</a></div>
+            <div class='extra' style="height:18px;"><a href='#'>活动中心</a></div>
+            <div class='extra' style="height:18px;"><a href='#'>车友社区</a></div>
+            <div class='extra' style="height:18px;"><a href='#'>购物须知</a></div>
+            <div class='extra' style="height:18px;"><a href='#'>消费保障</a></div>
+			
+			<div class='extra'><a href='__APP__/Search/condition'>全部商品</a></div>
+		
+		</div>
+		
+	</div>
+      
+      
+      
+    </div>
+    <div id="tab2" class="container">
+      <div class="box">
+        <div id="slide"></div>
+        <script type="text/javascript">$("#slide").jdSlide({width:900,height:400,pics:[{src:"__IMAGE__/56.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type          :"img"},{src:"__IMAGE__/54.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"},{src:"__IMAGE__/55.jpg",href:                  
+		  "http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"},{src:"__IMAGE__/53.jpg",href:"http://www.16sucai.com/daima/",alt:"",breviary:"#",type:"img"}]})   
+          </script>
+        slide end </div>
+    </div>
+    <div id="tab3">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />猜您喜欢</h3>
+      
+       <DIV id="featureContainer" class="likeinfo">
+      <DIV id="feature">
+        <DIV id="block">
+          <DIV id="botton-scroll">
+            <UL class="featureUL" id="tab3_featureUL">
+              <foreach name="like_info" item="vo">
+                <LI class="featureBox"  title="<{$vo['goods_name']}>">
+                  <DIV class="box"> <A href="__APP__/Index/goods_info?goods_num=<{$vo['goods_num']}>">
+                  <IMG src="__UPLOAD__/s_<{$vo['goods_pic'][0]}>" width="200" height="130"/> 
+                  <div style=" height:16px;overflow:hidden; text-align:center; width:95%;"><{$vo['goods_name']}></div>
+                  <div style="text-align:center;width:95%;"><{$vo['goods_service']}> <font color="#FF0033">售价:
+                  <if condition="$vo['sale_price']">$<{$vo['sale_price']}>
+                  <else />$<{$vo['day_price']}>/天
+                  </if></font></div></A></DIV>
+                </LI>
+              </foreach>
+            </UL>
+          </DIV>
+        </DIV>
+        <A class="prev" id="tab3_prev" href="javascript:void();" style="display:none;">Previous</A><A class="next" id="tab3_next" href="javascript:void();" style="display:none;">Next</A> </DIV>
+    </DIV>
+    <DIV id="wrap"><SPAN id="load">LOADING...</SPAN></DIV>
+      
+    </div>
+    <div id="tab4" style="overflow:hidden;">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />小贴士</h3>
+      <ul id="small_info" style="margin-left:20px; margin-top:5px;">
+        <li><a href="#">夏天骑车注意六大危害 四大益处</a></li>
+        <li><a href="#">四川大学自行车协会近期活动时间</a></li>
+        <li><a href="#">自行车保养应当注意哪些方面</a></li>
+        <li><a href="#">购车标准 如何区分是否是好车</a></li>
+        <li><a href="#">租车须知 规则 注意事项</a></li>
+        <li><a href="#">本站能免费预约试骑吗？</a></li>
+        <li><a href="#">绿色达人 假期活动团队出行</a></li>
+      </ul>
+    </div>
+    <div id="tab5">
+      <h3 style="margin-top:3px;"><img src="__IMAGE__/tree.png" />最新推荐</h3>
+      
+       <DIV id="featureContainer" class="tab5_featureContainer" style=" width:1050px;">
+      <DIV id="feature">
+        <DIV id="block"  class="tab5_block" style="width:1050px;">
+          <DIV id="botton-scroll">
+            <UL class="featureUL" id="tab5_featureUL">
+              <foreach name="like_info1" item="vo1">
+                <LI class="featureBox"  title="<{$vo1['goods_name']}>" id="tab5_featureBox">
+                  <DIV class="box" id="tab5_box"> <A href="__APP__/Index/goods_info?goods_num=<{$vo1['goods_num']}>">
+                  <IMG src="__UPLOAD__/s_<{$vo1['goods_pic'][0]}>" width="210" height="135"/> 
+                  <div style="height:16px;overflow:hidden; text-align:center; width:95%;"><{$vo1['goods_name']}></div>
+                  <div style="text-align:center;width:95%;"><{$vo1['goods_service']}> <font color="#FF0033">售价:
+                  <if condition="$vo1['sale_price']">$<{$vo1['sale_price']}>
+                  <else />$<{$vo1['day_price']}>/天
+                  </if>
+                  </font></div></A></DIV>
+                </LI>
+              </foreach>
+            </UL>
+          </DIV>
+        </DIV>
+        <A class="prev" id="tab5_prev" href="javascript:void();" style="display:none;">Previous</A><A class="next" id="tab5_next" href="javascript:void();" style="display:none;">Next</A> </DIV>
+    </DIV>
+    <DIV id="wrap"><SPAN id="load">LOADING...</SPAN></DIV>
+    
+    </div>
+  </div>
+  </div>
+<script type="text/javascript"> 
+$(".allsort").hoverForIE6({current:"allsorthover",delay:200});
+$(".allsort .item").hoverForIE6({delay:150});
+</script>
+</body>
+</html>
+<include file="home_footer"/>

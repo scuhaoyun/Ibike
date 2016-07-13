@@ -1,0 +1,232 @@
+<include file="Index://admin_top"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="__JS__/ajax.js"></script>
+</head>
+<style type="text/css">
+.content-box {
+	width:96%;
+	margin:0 auto;
+}
+.searchbox {
+	background:url(__IMAGE__/search_user.png) no-repeat;
+	width:270px;
+	height:34px;
+	position:absolute;
+	top:3px;
+	right:20px;
+}
+.searchbox input {
+	color:#999;
+	font-size:13px;
+	font-family:"宋体";
+	width:230px;
+	margin:7px 0 0 8px;
+	float:left;
+	display:inline-block;
+	border:0;
+	background:none;
+	padding:2px 0 2px 16px;
+	height:16px;
+	line-height:1.4;
+}
+.searchbox input.focus_text {
+	color:#333;
+	background:#fff;
+	width:178px;
+	padding-left:0;
+}
+.searchbox input.blur_text {
+	color:#999;
+}
+.searchbox .btnimg {
+	border:0;
+	background:none;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	width:82px;
+	line-height:999em;
+	height:34px;
+	overflow:hidden;
+	float:right;
+}
+#user_info_table{
+ border-right:1px solid #DDDDDD;
+	border-bottom:1px solid #DDDDDD;
+}
+#user_info_table td{
+   border-left:1px solid #DDDDDD;
+	border-top:1px solid #DDDDDD;}
+.user_list_tr:hover{ background:#FFFBBC;}
+.tr_click{ background:#FFFBBC;}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    var keywords = "请输入用户名！";
+
+    $("#birds").val(keywords).bind("focus",function(){
+		if (this.value == keywords){
+			this.value = "";
+			this.className = "focus_text"
+		}
+	}).bind("blur", function(){
+		if (this.value == "") {
+			this.value = keywords;
+			this.className = "blur_text"
+		}
+	});
+	
+  $(":checkbox :last").click(function(){//全选，取消全选
+	       if($(this).attr("checked")){
+		   		$(":checkbox").attr({checked:"checked"});
+				$(".user_list_tr").addClass("tr_click");
+		   }
+		   if(!$(this).attr("checked")){
+		        $(":checkbox").attr({checked:false});
+				$(".user_list_tr").removeClass("tr_click");
+		   }
+	  		
+	  });
+	  $(":checkbox :not(:last)").click(function(){
+	       if(!$(this).attr("checked")){
+	  			$(":checkbox :last").attr({checked:false});
+				$(this).parent().parent().removeClass("tr_click");
+			}
+			else{
+			$(this).parent().parent().addClass("tr_click");
+			}
+	  });
+	  
+	  $(".jrhmd").click(function(){
+		 var ajax=Ajax();
+		 var username=$(this).attr("name");
+		ajax.post("__APP__/Useradmin/jrhmd", {username:username}, function(data){document.location.reload();});
+	});
+	
+	$(".delete_user").click(function(){
+		 var ajax1=Ajax();
+		 var username=$(this).attr("name");
+		ajax1.post("__APP__/Useradmin/delete_user", {username:username}, function(data){document.location.reload();});
+	});
+	
+	 $("#all_jrhmd").click(function(){//删除选中的所有商品   
+			$("input:checked").each(function(){
+				var username=$(this).attr("name");
+				 var ajax2=Ajax();
+		        ajax2.post("__APP__/Useradmin/jrhmd", {username:username}, function(data){});
+			});
+			Pause(this,50);//调用暂停函数      
+           this.NextStep=function()  
+           {     
+                document.location.reload();     
+          }    
+	});
+	$("#all_delete_user").click(function(){//删除选中的所有商品
+	      alert("您正在进行的操作将删除所有选中用户的所有信息，包括用户信息、订单信息、评论信息、购物车信息等，由于是测试阶段，所以不支持您的随意而为，请谅解！");   
+			/*$("input:checked").each(function(){
+				var username=$(this).attr("name");
+				 var ajax3=Ajax();
+		        ajax3.post("__APP__/Useradmin/delete_user", {username:username}, function(data){});
+			});
+			Pause(this,50);//调用暂停函数      
+           this.NextStep=function()  
+           {     
+                document.location.reload();     
+          }    */
+	});
+});
+</script>
+<body>
+<!--<div id="right">-->
+<div class="content-box">
+  <!-- Start Content Box -->
+  <div class="content-box-header" style="position:relative;">
+    <h3>用户管理</h3>
+    <div class="searchbox">
+      <form enctype="multipart/form-data" action="__APP__/Useradmin/index"  method="POST">
+        <input type="text" id="birds" name="username" class="stext" value="">
+        <input class="btnimg" type="submit" value="" />
+      </form>
+    </div>
+    <div class="clear"></div>
+  </div>
+ <div class="content-box-content">
+ <if condition="$user neq null">
+        <table cellspacing="0" id="user_info_table" cellpadding="0" style="text-align:center; vertical-align:middle;" >
+          <tr id="goods_tr" style="background-color:#E8F2FF; height:38px; ">
+            <td width="2%"></td>
+            <td width="5%" style="border-left:none;">用户ID</td>
+            <td >用户名</td>
+            <td >密码</td>
+            <td width="8%" >用户权限</td>
+            <td width="6%" >用户积分</td>
+            <td width="14%">注册时间</td>
+            <td width="6%">登录次数</td>
+            <td width="17%">操作</td>
+          </tr>
+          <foreach name="user" item="info">
+              <tr style="height:40px;" class="user_list_tr">
+              <td><input type="checkbox" name="<{$info['username']}>"></td>
+                <td><{$info['user_id']}></td>
+                <td><{$info['username']}></td>
+                <td><{$info['password']}></td>
+                <td><if condition="$info['blacklist']=='否'"><{$info['userability']}>
+                <else />黑名单用户
+                </if>
+                </td>
+                <td><{$info['userscore']}></td>
+                <td><{$info['reg_time']}></td>
+                <td><{$info['login_times']}></td>
+                <td ><p><a href="__APP__/Orderadmin/index?username=<{$info['username']}>">【用户订单】</a><a href="__APP__/Useradmin/user_shopcar?username=<{$info['username']}>">【购物车】</a></p>
+  <p><a class="jrhmd" name="<{$info['username']}>" href="#">
+     <if condition="$info['blacklist']=='否'">【加入黑名单】
+     <else />【移出黑名单】
+     </if></a><a href="#" class="delete_user" name="<{$info['username']}>" style="color:#FBA60F;">【删除】</a></p></td>
+              </tr>
+          </foreach>
+        </table>
+        <input type="checkbox" id="select_all">全选/反选&nbsp;&nbsp;&nbsp;&nbsp;选中项：<a id="all_jrhmd" href="#" style="color:#FBA60F;">【加入/移出黑名单】</a><a id="all_delete_user" href="#" style="color:#FBA60F;">【删除】</a>
+        <else />没有你要查找的用户！
+        </if>
+  </div>
+  <!-- End .content-box-content -->
+</div>
+<script> 
+function Pause(obj,iMinSecond)//暂停函数定义  
+{     
+    if (window.eventList==null)   
+        window.eventList=new Array();     
+    var ind=-1;     
+    for (var i=0;i<window.eventList.length;i++)  
+    {      
+        if (window.eventList[i]==null)   
+        {       
+            window.eventList[i]=obj;   
+            ind=i;      
+            break;     
+        }   
+    }       
+    if (ind==-1)  
+    {      
+        ind=window.eventList.length;      
+        window.eventList[ind]=obj;     
+    }     
+    setTimeout("GoOn(" + ind + ")",iMinSecond);    
+}   
+  
+ function GoOn(ind)  
+ {     
+    var obj=window.eventList[ind];     
+    window.eventList[ind]=null;     
+    if (obj.NextStep)   
+        obj.NextStep();     
+    else obj();    
+ }   
+
+</script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<include file="Index://admin_top"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="__JS__/payfor.js"></script>
+<script type="text/javascript" src="__JS__/ajax.js"></script>
+</head>
+<style type="text/css">
+.content-box {
+	width:96%;
+	margin:0 auto;
+}
+.searchbox {
+	background:url(__IMAGE__/search_user.png) no-repeat;
+	width:270px;
+	height:34px;
+	position:absolute;
+	top:3px;
+	right:20px;
+}
+.searchbox input {
+	color:#999;
+	font-size:13px;
+	font-family:"宋体";
+	width:230px;
+	margin:7px 0 0 8px;
+	float:left;
+	display:inline-block;
+	border:0;
+	background:none;
+	padding:2px 0 2px 16px;
+	height:16px;
+	line-height:1.4;
+}
+.searchbox input.focus_text {
+	color:#333;
+	background:#fff;
+	width:178px;
+	padding-left:0;
+}
+.searchbox input.blur_text {
+	color:#999;
+}
+.searchbox .btnimg {
+	border:0;
+	background:none;
+	cursor:pointer;
+	margin:0;
+	padding:0;
+	width:82px;
+	line-height:999em;
+	height:34px;
+	overflow:hidden;
+	float:right;
+}
+a {
+	text-decoration:none;
+}
+#home_middle {
+	width:1050px;
+	height: auto;
+	margin:0 auto;
+	text-align:left;
+}
+#goods_look {
+	width:520px;
+	height:450px;
+	display:inline;
+	float:left;
+}
+ul li {
+	list-style:none;
+	float:left;
+	margin:0;
+}
+img {
+	border:none;
+}
+.p_number{width:100px;height:30px; display:block; vertical-align:top;}	
+.p_number .f_l{float:left;}
+.p_number .add_chose{width:105px;}
+.p_number .add_chose a{float:left;margin:5px 0 0 0;display:block;width:15px;height:15px;line-height:99em;overflow:hidden;background:url(__IMAGE__/reduce-add.gif) no-repeat;}
+.p_number .add_chose a.reduce{background-position:0 0;}
+.p_number .add_chose a.reduce:hover{background-position:0 -16px;}
+.p_number .add_chose a.add{background-position:-16px 0;}
+.p_number .add_chose a.add:hover{background-position:-16px -16px;}
+.p_number .add_chose .text{float:left;margin:0 5px;display:inline;border:solid 1px #ccc;padding:4px 3px 4px 8px;width:40px;line-height:18px;font-size:14px;color:#990000;font-weight:800;}
+.p_number .buy{line-height:2em;}
+.p_number .buy .total-font{font-family:Arial;font-size:26px;}
+.jifen{margin-left:20px;color:#ACACAC; font-size:14px;}
+.jifen b{margin:0 3px;}
+#user_shopcar td{border-right:1px solid #fff;border-top:1px solid #CCCCCC; }
+.goods_list_td{background:#FFFDEE;}
+#total_item_0{ position:absolute; bottom:-43px; font-size:26px; color:#E35651;}
+.content-box-content{ font-size:14px;}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+    var keywords = "请输入用户名！";
+
+    $("#birds").val(keywords).bind("focus",function(){
+		if (this.value == keywords){
+			this.value = "";
+			this.className = "focus_text"
+		}
+	}).bind("blur", function(){
+		if (this.value == "") {
+			this.value = keywords;
+			this.className = "blur_text"
+		}
+	});
+	
+	$(".goods_del_but").click(function(){
+		 var ajax=Ajax();
+		 var goods_num=$(this).attr("name");
+		ajax.post("__ROOT__/index.php/Shopcar/goods_delete", {goods_num:goods_num}, function(data){document.location.reload();});
+	});
+	
+	$("#total_item_0").show();
+	
+	 $(".rent_unit_select").change(function(){ 
+		 var change_item=$(this).attr("id");  
+		 var item_id=$(this).attr("title");
+		 $(change_item).text($(this).find('option:selected').attr("title"));
+	     $(item_id).keyup();
+		 
+		  var goods_num=$(this).attr("name");
+		  var now_select=$(this).find('option:selected').attr("value");
+	      var ajax1=Ajax();
+		ajax1.post("__ROOT__/index.php/Shopcar/change_unit", {goods_num:goods_num,now_select:now_select}, function(data){});
+	  });
+	  
+	   $("input:text").change(function(){ 
+		  var goods_num=$(this).attr("title");
+		  var goods_count=$(this).attr("value");
+	      var ajax2=Ajax();
+		ajax2.post("__ROOT__/index.php/Shopcar/change_number", {goods_num:goods_num,goods_count:goods_count}, function(data){});
+	  });
+	  
+	  $(".add,.reduce").click(function(){ 
+	      var input_id=$(this).attr("title");
+		  var goods_num=$(input_id).attr("title");
+		  var goods_count=$(input_id).attr("value");
+	      var ajax3=Ajax();
+		ajax3.post("__ROOT__/index.php/Shopcar/change_number", {goods_num:goods_num,goods_count:goods_count}, function(data){});
+	  });
+	  
+	 $(":checkbox :first").click(function(){//全选，取消全选
+	       if($(this).attr("checked")){
+		   		$(":checkbox").attr({checked:"checked"});
+		   }
+		   if(!$(this).attr("checked")){
+		        $(":checkbox").attr({checked:false});
+		   }
+	  		
+	  });
+	  $(":checkbox :not(:first)").click(function(){
+	       if(!$(this).attr("checked")){
+	  			$(":checkbox :first").attr({checked:false});
+			}
+	  });
+	  $("#delete_all_but").click(function(){//删除选中的所有商品
+	       
+			$("input:checked").each(function(){
+				var del=$(this).attr("name");
+				var goods_num=$(del).attr("name");
+				 var ajax=Ajax();
+		        ajax.post("__ROOT__/index.php/Shopcar/goods_delete", {goods_num:goods_num}, function(data){});
+			});
+			Pause(this,50);//调用暂停函数      
+           this.NextStep=function()  
+           {     
+                document.location.reload();     
+          }    
+
+			//alert("您确定要删除所选中的所用商品吗？");
+			//document.location.reload();
+	});
+});
+</script>
+<body>
+<!--<div id="right">-->
+<div class="content-box">
+  <!-- Start Content Box -->
+  <div class="content-box-header" style="position:relative;">
+    <h3>用户管理>>用户购物车</h3>
+    <div class="searchbox">
+      <form enctype="multipart/form-data" action="__APP__/Useradmin/user_shopcar"  method="POST">
+        <input type="text" id="birds" name="username" class="stext" value="">
+        <input class="btnimg" type="submit" value="" />
+      </form>
+    </div>
+    <div class="clear"></div>
+  </div>
+ <div class="content-box-content">
+ <if condition="$list neq null">
+         <table id="user_shopcar" cellspacing="0"  cellpadding="0" style="border:1px solid #CCCCCC; border-bottom:none;border-top:none; width:100%; height:auto; text-align:center; vertical-align:middle; position:relative;">
+     <tr id="shopcarth" style="background-color:#F3F3F3; height:40px;">
+     <td style="border-right:none;width:2%;"></td><td width="12%" ><input type="checkbox"  id="all_select"/>全选</td><td>商品</td><td width="10%" >服务类型</td>
+     <td width="11%" >单价</td><td width="10%" >返现/送积分</td><td width="7%">数量/时间</td>
+     <td width="15%">操作</td></tr>
+
+      <foreach name="list" item="goods">
+      <tr style="height:80px;" class="goods_list_td">
+      <td class="goods_checkbox"><input type="checkbox" name="#goods_del_but<{$key}>"/></td>
+      <td><img height="80px" width="120px" src="__UPLOAD__/s_<{$goods['goods_pic'][0]}>" /></td>
+      <td><a href="#"><{$goods['goods_name']}></a></td>
+      <if condition="$goods['time_unit']==''">
+       <td>出售</td><td><label id="price_item_<{$key}>">$<{$goods['sale_price']}></label></td>
+        <elseif condition="$goods['time_unit']=='天'" />
+        <td>出租</td>
+        <td><div id="price_item_<{$key}>" style=" width:auto; display:inline; float:left;">$<{$goods['day_price']}></div><div class="unit_select" style=" width:40px; height:25px; 		                 display:inline; float:left; margin-right:10px;">
+            <select name="<{$goods['goods_num']}>" id="#price_item_<{$key}>" title="#qty_item_<{$key}>" class="rent_unit_select">
+            <option title="$<{$goods['day_price']}>" value="天" selected="selected">/天</option>
+			<option title="$<{$goods['hour_price']}>" value="小时">/小时</option> 
+			<option title="$<{$goods['month_price']}>" value="月" >/月</option>
+			</select> </div>
+        </td>
+       <elseif condition="$goods['time_unit']=='小时'"/><td>出租</td>
+        <td><div id="price_item_<{$key}>" style=" width:auto; display:inline; float:left;">$<{$goods['hour_price']}></div><div class="unit_select" style=" width:40px; height:25px; 		                 display:inline; float:left; margin-right:10px;">
+            <select name="<{$goods['goods_num']}>" id="#price_item_<{$key}>" title="#qty_item_<{$key}>" class="rent_unit_select">
+            <option title="$<{$goods['day_price']}>" value="天" >/天</option>
+			<option title="$<{$goods['hour_price']}>" value="小时" selected="selected">/小时</option>
+			<option title="$<{$goods['month_price']}>" value="月" >/月</option>
+			</select> </div>
+        </td>
+       <else /><td width="10%" >出租</td>
+        <td><div id="price_item_<{$key}>" style=" width:auto; display:inline; float:left;">$<{$goods['month_price']}></div><div class="unit_select" style=" width:40px; height:25px; 		                 display:inline; float:left; margin-right:10px;">
+            <select name="<{$goods['goods_num']}>" id="#price_item_<{$key}>" title="#qty_item_<{$key}>" class="rent_unit_select">
+            <option title="$<{$goods['day_price']}>" value="天" >/天</option>
+			<option title="$<{$goods['hour_price']}>" value="小时">/小时</option>
+			<option title="$<{$goods['month_price']}>" value="月" selected="selected">/月</option>
+			</select> </div>
+        </td>
+       </if>
+      <!-- <if condition="$goods['goods_service']=='出售'">
+       <td><label id="price_item_<{$key}>">$<{$goods['sale_price']}></label></td>
+       <else />
+       <if condition="$goods['time_unit']=='天'"><label id="price_item_<{$key}>">$<{$goods['day_price']}></label></td>
+               <elseif condition="$goods['time_unit']=='小时'"/><label id="price_item_<{$key}>">$<{$goods['hour_price']}></label></td>
+               <else /><label id="price_item_<{$key}>">$<{$goods['month_price']}></label></td>
+               </if>
+       
+       </if>-->
+        <td><span class="jifen"><b id="total_points">18</b></span></td>
+        <td>
+        <div class="p_number">
+            <input type="text" name="goods_num_<{$key}>" value="<{$goods['goods_num']}>" id="goods_num_<{$key}>" style=" display:none;"/>
+          <div class="f_l add_chose"> <a class="reduce" title="#qty_item_<{$key}>" onClick="setAmount.reduce('#qty_item_<{$key}>')" href="javascript:void(0)">-</a>
+            <input type="text" name="qty_item_<{$key}>" title="<{$goods['goods_num']}>" value="<{$goods['count']}>" id="qty_item_<{$key}>" onKeyUp="setAmount.modify('#qty_item_<{$key}>')" class="text" />
+            <a class="add" title="#qty_item_<{$key}>" onClick="setAmount.add('#qty_item_<{$key}>')" href="javascript:void(0)">+</a> 
+            </div>
+             <span class="total-font" id="total_item_<{$key}>" style=" display:none;"></span>
+        </td>
+         <td><a href="#djd" ><img src="__IMAGE__/delete.png" id="goods_del_but<{$key}>" class="goods_del_but" name="<{$goods['goods_num']}>"/></a></td>
+      </tr>
+     
+      </foreach>
+     
+     </table>
+    <div style="height:70px; background:#F3F3F3;border:1px solid #CCCCCC; border-top:none; margin:0 auto;">
+    <div style="width:800px; display:inline; float:left; margin-top:20px; padding-left:30px;">
+    <a href="#"  id="delete_all_but" style="color:#000000;"><img src="__IMAGE__/cross.png"/>删除所选商品！</a></div>
+    <div style="width:200px; display:inline; float:right; margin-top:20px;">总计:
+    
+    </div></div>
+        <else />没有该用户或该用户购物车内没有商品！
+        </if>
+  </div>
+  <!-- End .content-box-content -->
+</div>
+<script> 
+function Pause(obj,iMinSecond)//暂停函数定义  
+{     
+    if (window.eventList==null)   
+        window.eventList=new Array();     
+    var ind=-1;     
+    for (var i=0;i<window.eventList.length;i++)  
+    {      
+        if (window.eventList[i]==null)   
+        {       
+            window.eventList[i]=obj;   
+            ind=i;      
+            break;     
+        }   
+    }       
+    if (ind==-1)  
+    {      
+        ind=window.eventList.length;      
+        window.eventList[ind]=obj;     
+    }     
+    setTimeout("GoOn(" + ind + ")",iMinSecond);    
+}   
+  
+ function GoOn(ind)  
+ {     
+    var obj=window.eventList[ind];     
+    window.eventList[ind]=null;     
+    if (obj.NextStep)   
+        obj.NextStep();     
+    else obj();    
+ }   
+
+</script>
+</body>
+</html>
